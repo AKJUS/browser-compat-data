@@ -5,6 +5,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position",
           "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-position",
+          "tags": [
+            "web-features:background-position"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -42,9 +45,12 @@
         "bottom": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-position-bottom",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤83"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -76,9 +82,12 @@
         "center": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-position-center",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤83"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -110,9 +119,12 @@
         "left": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-position-left",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤83"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -144,6 +156,9 @@
         "multiple_backgrounds": {
           "__compat": {
             "description": "Multiple backgrounds",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -182,9 +197,12 @@
         "right": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-position-right",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤83"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -215,7 +233,10 @@
         },
         "side-relative_values": {
           "__compat": {
-            "description": "Side-relative values (such as <code>bottom 10% right 20%</code>)",
+            "description": "Side-relative values (such as `bottom 10% right 20%`)",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
                 "version_added": "25"
@@ -254,9 +275,12 @@
         "top": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-backgrounds/#valdef-background-position-top",
+            "tags": [
+              "web-features:background-position"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤83"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
