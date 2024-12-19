@@ -1,5 +1,609 @@
 # @mdn/browser-compat-data release notes
 
+## [v5.6.25](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.25)
+
+December 17, 2024
+
+### Removals
+
+- `javascript.builtins.Temporal.Calendar` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.Calendar` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.dateAdd` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.dateFromFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.dateUntil` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.day` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.dayOfWeek` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.dayOfYear` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.daysInMonth` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.daysInWeek` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.daysInYear` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.era` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.eraYear` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.fields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.from` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.id` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.inLeapYear` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.mergeFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.month` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.monthCode` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.monthDayFromFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.monthsInYear` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.toJSON` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.toString` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.weekOfYear` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.year` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.Calendar.yearMonthFromFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.PlainDate.getISOFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.PlainDateTime.getISOFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.PlainMonthDay.getISOFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.PlainTime.getISOFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.PlainYearMonth.getISOFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.from` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.getInstantFor` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.getOffsetNanosecondsFor` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.getOffsetStringFor` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.getPlainDateTimeFor` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.getPossibleInstantsFor` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.id` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.TimeZone` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.toJSON` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.TimeZone.toString` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+- `javascript.builtins.Temporal.ZonedDateTime.getISOFields` ([#25415](https://github.com/mdn/browser-compat-data/pull/25415))
+
+### Additions
+
+- `browsers.nodejs.releases.14.18.0` ([#24886](https://github.com/mdn/browser-compat-data/pull/24886))
+- `browsers.nodejs.releases.20.16.0` ([#24886](https://github.com/mdn/browser-compat-data/pull/24886))
+- `browsers.nodejs.releases.22.3.0` ([#24886](https://github.com/mdn/browser-compat-data/pull/24886))
+- `browsers.nodejs.releases.6.13.0` ([#24997](https://github.com/mdn/browser-compat-data/pull/24997))
+- `browsers.nodejs.releases.7.3.0` ([#24997](https://github.com/mdn/browser-compat-data/pull/24997))
+- `http.headers.Service-Worker` ([#25422](https://github.com/mdn/browser-compat-data/pull/25422))
+- `http.headers.Service-Worker-Allowed` ([#25421](https://github.com/mdn/browser-compat-data/pull/25421))
+- `webassembly.api.compile_static.compile_options` ([#25391](https://github.com/mdn/browser-compat-data/pull/25391))
+- `webassembly.api.compileStreaming_static.compile_options` ([#25391](https://github.com/mdn/browser-compat-data/pull/25391))
+- `webassembly.api.instantiate_static.compile_options` ([#25391](https://github.com/mdn/browser-compat-data/pull/25391))
+- `webassembly.api.instantiateStreaming_static.compile_options` ([#25391](https://github.com/mdn/browser-compat-data/pull/25391))
+- `webassembly.api.Module.Module.compile_options` ([#25391](https://github.com/mdn/browser-compat-data/pull/25391))
+- `webassembly.api.validate_static.compile_options` ([#25391](https://github.com/mdn/browser-compat-data/pull/25391))
+
+### Statistics
+
+- 9 contributors have changed 36 files with 556 additions and 2,416 deletions in 21 commits ([`v5.6.24...v5.6.25`](https://github.com/mdn/browser-compat-data/compare/v5.6.24...v5.6.25))
+- 16,744 total features
+- 1,120 total contributors
+- 5,032 total stargazers
+
+## [v5.6.24](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.24)
+
+December 13, 2024
+
+### Renamings
+
+- `css.types.calc-constant` to `css.types.calc-keyword` ([#25395](https://github.com/mdn/browser-compat-data/pull/25395))
+- `css.types.calc-constant.e` to `css.types.calc-keyword.e` ([#25395](https://github.com/mdn/browser-compat-data/pull/25395))
+- `css.types.calc-constant.infinity` to `css.types.calc-keyword.infinity` ([#25395](https://github.com/mdn/browser-compat-data/pull/25395))
+- `css.types.calc-constant.NaN` to `css.types.calc-keyword.NaN`([#25395](https://github.com/mdn/browser-compat-data/pull/25395))
+- `css.types.calc-constant.pi` to `css.types.calc-keyword.pi` ([#25395](https://github.com/mdn/browser-compat-data/pull/25395))
+
+### Removals
+
+- `css.properties.offset-path.coord_box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+
+### Additions
+
+- `css.properties.offset-anchor.bottom` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-anchor.center` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-anchor.left` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-anchor.right` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-anchor.top` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.border-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.content-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.fill-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.margin-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.none` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.padding-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.stroke-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-path.view-box` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-position.bottom` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-position.center` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-position.left` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-position.right` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+- `css.properties.offset-position.top` ([#25385](https://github.com/mdn/browser-compat-data/pull/25385))
+
+### Statistics
+
+- 12 contributors have changed 22 files with 775 additions and 97 deletions in 21 commits ([`v5.6.23...v5.6.24`](https://github.com/mdn/browser-compat-data/compare/v5.6.23...v5.6.24))
+- 16,780 total features
+- 1,119 total contributors
+- 5,031 total stargazers
+
+## [v5.6.23](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.23)
+
+December 10, 2024
+
+### Removals
+
+- `css.properties.object-position.applies_to_iframe_elements` ([#25354](https://github.com/mdn/browser-compat-data/pull/25354))
+- `css.types.color.color-contrast` ([#25305](https://github.com/mdn/browser-compat-data/pull/25305))
+
+### Additions
+
+- `browsers.opera_android.releases.85` ([#25347](https://github.com/mdn/browser-compat-data/pull/25347))
+- `browsers.opera_android.releases.86` ([#25347](https://github.com/mdn/browser-compat-data/pull/25347))
+- `browsers.opera.releases.116` ([#25347](https://github.com/mdn/browser-compat-data/pull/25347))
+- `browsers.opera.releases.117` ([#25347](https://github.com/mdn/browser-compat-data/pull/25347))
+- `webextensions.api.action.onUserSettingsChanged` ([#25343](https://github.com/mdn/browser-compat-data/pull/25343))
+- `webextensions.api.action.UserSettingsChange` ([#25343](https://github.com/mdn/browser-compat-data/pull/25343))
+
+### Statistics
+
+- 8 contributors have changed 44 files with 250 additions and 258 deletions in 25 commits ([`v5.6.22...v5.6.23`](https://github.com/mdn/browser-compat-data/compare/v5.6.22...v5.6.23))
+- 16,763 total features
+- 1,118 total contributors
+- 5,027 total stargazers
+
+## [v5.6.22](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.22)
+
+December 6, 2024
+
+### Renamings
+
+- `svg.elements.stop.stop-color` to `svg.global_attributes.stop-color` ([#25272](https://github.com/mdn/browser-compat-data/pull/25272))
+- `svg.elements.stop.stop-opacity` to `svg.global_attributes.stop-opacity` ([#25272](https://github.com/mdn/browser-compat-data/pull/25272))
+
+### Additions
+
+- `api.HTMLFencedFrameElement.sandbox` ([#25227](https://github.com/mdn/browser-compat-data/pull/25227))
+- `api.HTMLInputElement.alpha` ([#25270](https://github.com/mdn/browser-compat-data/pull/25270))
+- `api.HTMLInputElement.colorSpace` ([#25270](https://github.com/mdn/browser-compat-data/pull/25270))
+- `browsers.edge.releases.134` ([#25322](https://github.com/mdn/browser-compat-data/pull/25322))
+- `html.elements.input.alpha` ([#25270](https://github.com/mdn/browser-compat-data/pull/25270))
+- `html.elements.input.colorspace` ([#25270](https://github.com/mdn/browser-compat-data/pull/25270))
+
+### Statistics
+
+- 13 contributors have changed 70 files with 756 additions and 617 deletions in 29 commits ([`v5.6.21...v5.6.22`](https://github.com/mdn/browser-compat-data/compare/v5.6.21...v5.6.22))
+- 16,763 total features
+- 1,116 total contributors
+- 5,022 total stargazers
+
+## [v5.6.21](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.21)
+
+December 3, 2024
+
+### Removals
+
+- `browsers.nodejs.releases.10.5.0` ([#25014](https://github.com/mdn/browser-compat-data/pull/25014))
+
+### Additions
+
+- `browsers.nodejs.releases.21.1.0` ([#24988](https://github.com/mdn/browser-compat-data/pull/24988))
+- `webassembly.exceptionsFinal` ([#25252](https://github.com/mdn/browser-compat-data/pull/25252))
+- `webassembly.typedFunctionReferences` ([#25252](https://github.com/mdn/browser-compat-data/pull/25252))
+
+### Statistics
+
+- 6 contributors have changed 47 files with 741 additions and 310 deletions in 21 commits ([`v5.6.20...v5.6.21`](https://github.com/mdn/browser-compat-data/compare/v5.6.20...v5.6.21))
+- 16,758 total features
+- 1,116 total contributors
+- 5,013 total stargazers
+
+## [v5.6.20](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.20)
+
+November 29, 2024
+
+### Removals
+
+- `svg.elements.feFlood.flood-color` ([#25259](https://github.com/mdn/browser-compat-data/pull/25259))
+- `svg.elements.feFlood.flood-opacity` ([#25259](https://github.com/mdn/browser-compat-data/pull/25259))
+
+### Additions
+
+- `api.BrowserCaptureMediaStreamTrack.restrictTo` ([#25232](https://github.com/mdn/browser-compat-data/pull/25232))
+- `api.RestrictionTarget` ([#25232](https://github.com/mdn/browser-compat-data/pull/25232))
+- `api.RestrictionTarget.fromElement_static` ([#25232](https://github.com/mdn/browser-compat-data/pull/25232))
+- `api.Serial.requestPort.allowedBluetoothServiceClassIds_option` ([#25256](https://github.com/mdn/browser-compat-data/pull/25256))
+- `api.Serial.requestPort.filters_bluetoothServiceClassId` ([#25256](https://github.com/mdn/browser-compat-data/pull/25256))
+- `api.SerialPort.connect_event.bluetooth_rfcomm` ([#25234](https://github.com/mdn/browser-compat-data/pull/25234))
+- `api.SerialPort.disconnect_event.bluetooth_rfcomm` ([#25234](https://github.com/mdn/browser-compat-data/pull/25234))
+- `api.SerialPort.getInfo.bluetoothServiceClassId` ([#25256](https://github.com/mdn/browser-compat-data/pull/25256))
+- `css.selectors.xr-overlay` ([#25253](https://github.com/mdn/browser-compat-data/pull/25253))
+- `css.types.transform-function.perspective.none` ([#25255](https://github.com/mdn/browser-compat-data/pull/25255))
+
+### Statistics
+
+- 8 contributors have changed 46 files with 713 additions and 315 deletions in 42 commits ([`v5.6.19...v5.6.20`](https://github.com/mdn/browser-compat-data/compare/v5.6.19...v5.6.20))
+- 16,756 total features
+- 1,116 total contributors
+- 5,007 total stargazers
+
+## [v5.6.19](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.19)
+
+November 26, 2024
+
+### Removals
+
+- `api.NavigateEvent.restoreScroll` ([#25229](https://github.com/mdn/browser-compat-data/pull/25229))
+- `api.NavigateEvent.transitionWhile` ([#25229](https://github.com/mdn/browser-compat-data/pull/25229))
+- `css.selectors.target-within` ([#25188](https://github.com/mdn/browser-compat-data/pull/25188))
+- `css.types.image.image` ([#25190](https://github.com/mdn/browser-compat-data/pull/25190))
+
+### Additions
+
+- `browsers.firefox_android.releases.136` ([#25211](https://github.com/mdn/browser-compat-data/pull/25211))
+- `browsers.firefox.releases.136` ([#25211](https://github.com/mdn/browser-compat-data/pull/25211))
+- `html.elements.input.webkitdirectory` ([#25036](https://github.com/mdn/browser-compat-data/pull/25036))
+- `webassembly.memory64` ([#25230](https://github.com/mdn/browser-compat-data/pull/25230))
+- `webextensions.manifest.chrome_settings_overrides.search_provider.search_url_get_params` ([#25160](https://github.com/mdn/browser-compat-data/pull/25160))
+- `webextensions.manifest.chrome_settings_overrides.search_provider.suggest_url_get_params` ([#25160](https://github.com/mdn/browser-compat-data/pull/25160))
+
+### Renamings
+
+- `css.types.image.gradient` to `css.types.gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.conic-gradient` to `css.types.gradient.conic-gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.conic-gradient.doubleposition` to `css.types.gradient.conic-gradient.doubleposition` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.conic-gradient.hue_interpolation_method` to `css.types.gradient.conic-gradient.hue_interpolation_method` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.conic-gradient.interpolation_color_space` to `css.types.gradient.conic-gradient.interpolation_color_space` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient` to `css.types.gradient.linear-gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.doubleposition` to `css.types.gradient.linear-gradient.doubleposition` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.hue_interpolation_method` to `css.types.gradient.linear-gradient.hue_interpolation_method` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.interpolation_color_space` to `css.types.gradient.linear-gradient.interpolation_color_space` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.interpolation_hints` to `css.types.gradient.linear-gradient.interpolation_hints` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.premultiplied_gradients` to `css.types.gradient.linear-gradient.premultiplied_gradients` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.to` to `css.types.gradient.linear-gradient.to` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.linear-gradient.unitless_0_angle` to `css.types.gradient.linear-gradient.unitless_0_angle` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient` to `css.types.gradient.radial-gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient.at` to `css.types.gradient.radial-gradient.at` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient.doubleposition` to `css.types.gradient.radial-gradient.doubleposition` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient.hue_interpolation_method` to `css.types.gradient.radial-gradient.hue_interpolation_method` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient.interpolation_color_space` to `css.types.gradient.radial-gradient.interpolation_color_space` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient.interpolation_hints` to `css.types.gradient.radial-gradient.interpolation_hints` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.radial-gradient.premultiplied_gradients` to `css.types.gradient.radial-gradient.premultiplied_gradients` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-conic-gradient` to `css.types.gradient.repeating-conic-gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-conic-gradient.hue_interpolation_method` to `css.types.gradient.repeating-conic-gradient.hue_interpolation_method` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-conic-gradient.interpolation_color_space` to `css.types.gradient.repeating-conic-gradient.interpolation_color_space` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient` to `css.types.gradient.repeating-linear-gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient.doubleposition` to `css.types.gradient.repeating-linear-gradient.doubleposition` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient.hue_interpolation_method` to `css.types.gradient.repeating-linear-gradient.hue_interpolation_method` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient.interpolation_color_space` to `css.types.gradient.repeating-linear-gradient.interpolation_color_space` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient.interpolation_hints` to `css.types.gradient.repeating-linear-gradient.interpolation_hints` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient.to` to `css.types.gradient.repeating-linear-gradient.to` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-linear-gradient.unitless_0_angle` to `css.types.gradient.repeating-linear-gradient.unitless_0_angle` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-radial-gradient` to `css.types.gradient.repeating-radial-gradient` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-radial-gradient.at` to `css.types.gradient.repeating-radial-gradient.at` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-radial-gradient.doubleposition` to `css.types.gradient.repeating-radial-gradient.doubleposition` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method` to `css.types.gradient.repeating-radial-gradient.hue_interpolation_method` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-radial-gradient.interpolation_color_space` to `css.types.gradient.repeating-radial-gradient.interpolation_color_space` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+- `css.types.image.gradient.repeating-radial-gradient.interpolation_hints` to `css.types.gradient.repeating-radial-gradient.interpolation_hints` ([#25191](https://github.com/mdn/browser-compat-data/pull/25191))
+
+### Statistics
+
+- 10 contributors have changed 1,270 files with 19,301 additions and 2,480 deletions in 41 commits ([`v5.6.18...v5.6.19`](https://github.com/mdn/browser-compat-data/compare/v5.6.18...v5.6.19))
+- 16,748 total features
+- 1,116 total contributors
+- 5,007 total stargazers
+
+## [v5.6.18](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.18)
+
+November 22, 2024
+
+### Removals
+
+- `css.properties.-webkit-mask-box-image-outset` ([#25155](https://github.com/mdn/browser-compat-data/pull/25155))
+- `css.properties.-webkit-mask-box-image-repeat` ([#25155](https://github.com/mdn/browser-compat-data/pull/25155))
+- `css.properties.-webkit-mask-box-image-slice` ([#25155](https://github.com/mdn/browser-compat-data/pull/25155))
+- `css.properties.-webkit-mask-box-image-source` ([#25155](https://github.com/mdn/browser-compat-data/pull/25155))
+- `css.properties.-webkit-mask-box-image-width` ([#25155](https://github.com/mdn/browser-compat-data/pull/25155))
+- `svg.global_attributes.stop-color` ([#25130](https://github.com/mdn/browser-compat-data/pull/25130))
+
+### Additions
+
+- `api.DocumentPictureInPicture.requestWindow.option_disallowReturnToOpener` ([#25173](https://github.com/mdn/browser-compat-data/pull/25173))
+- `api.DocumentPictureInPicture.requestWindow.option_preferInitialWindowPlacement` ([#25173](https://github.com/mdn/browser-compat-data/pull/25173))
+- `api.GPUCommandEncoder.beginRenderPass.separate_depth_stencil_read-only` ([#25157](https://github.com/mdn/browser-compat-data/pull/25157))
+- `api.GPUDevice.createBindGroupLayout.storageTexture_access_read-write_read-only` ([#25137](https://github.com/mdn/browser-compat-data/pull/25137))
+- `api.GPUDevice.createBindGroupLayout.texture_rgb10a2uint` ([#25149](https://github.com/mdn/browser-compat-data/pull/25149))
+- `api.GPUDevice.createRenderPipeline.optional_depthcompare_depthwriteenabled` ([#25158](https://github.com/mdn/browser-compat-data/pull/25158))
+- `api.GPUDevice.createRenderPipeline.texture_rgb10a2uint` ([#25149](https://github.com/mdn/browser-compat-data/pull/25149))
+- `api.GPUDevice.createRenderPipeline.vertex_unorm10-10-10-2` ([#25153](https://github.com/mdn/browser-compat-data/pull/25153))
+- `api.GPUDevice.createRenderPipelineAsync.optional_depthcompare_depthwriteenabled` ([#25158](https://github.com/mdn/browser-compat-data/pull/25158))
+- `api.GPUDevice.createRenderPipelineAsync.texture_rgb10a2uint` ([#25149](https://github.com/mdn/browser-compat-data/pull/25149))
+- `api.GPUDevice.createRenderPipelineAsync.vertex_unorm10-10-10-2` ([#25153](https://github.com/mdn/browser-compat-data/pull/25153))
+- `api.GPUDevice.createTexture.texture_rgb10a2uint` ([#25149](https://github.com/mdn/browser-compat-data/pull/25149))
+- `api.GPUDevice.importExternalTexture.color_space_display-p3` ([#25156](https://github.com/mdn/browser-compat-data/pull/25156))
+- `api.GPUTexture.createView.texture_rgb10a2uint` ([#25149](https://github.com/mdn/browser-compat-data/pull/25149))
+- `api.GPUTexture.format.texture_rgb10a2uint` ([#25149](https://github.com/mdn/browser-compat-data/pull/25149))
+- `api.MessageEvent.userActivation` ([#25162](https://github.com/mdn/browser-compat-data/pull/25162))
+- `api.MessagePort.postMessage.options_includeUserActivation_parameter` ([#25162](https://github.com/mdn/browser-compat-data/pull/25162))
+- `api.WGSLLanguageFeatures.extension_packed_4x8_integer_dot_product` ([#25170](https://github.com/mdn/browser-compat-data/pull/25170))
+- `api.WGSLLanguageFeatures.extension_readonly_and_readwrite_storage_textures` ([#25137](https://github.com/mdn/browser-compat-data/pull/25137))
+- `api.WGSLLanguageFeatures.extension_unrestricted_pointer_parameters` ([#25171](https://github.com/mdn/browser-compat-data/pull/25171))
+- `api.Window.postMessage.options_includeUserActivation_parameter` ([#25162](https://github.com/mdn/browser-compat-data/pull/25162))
+- `api.Worker.postMessage.options_includeUserActivation_parameter` ([#25162](https://github.com/mdn/browser-compat-data/pull/25162))
+- `css.selectors.has-slotted` ([#25129](https://github.com/mdn/browser-compat-data/pull/25129))
+- `http.headers.Sec-WebSocket-Accept` ([#25115](https://github.com/mdn/browser-compat-data/pull/25115))
+- `http.headers.Sec-WebSocket-Extensions` ([#25115](https://github.com/mdn/browser-compat-data/pull/25115))
+- `http.headers.Sec-WebSocket-Key` ([#25115](https://github.com/mdn/browser-compat-data/pull/25115))
+- `http.headers.Sec-WebSocket-Protocol` ([#25115](https://github.com/mdn/browser-compat-data/pull/25115))
+- `http.headers.Sec-WebSocket-Version` ([#25115](https://github.com/mdn/browser-compat-data/pull/25115))
+- `http.headers.Server-Timing.trailer` ([#25141](https://github.com/mdn/browser-compat-data/pull/25141))
+
+### Statistics
+
+- 16 contributors have changed 96 files with 2,020 additions and 882 deletions in 50 commits ([`v5.6.17...v5.6.18`](https://github.com/mdn/browser-compat-data/compare/v5.6.17...v5.6.18))
+- 16,748 total features
+- 1,116 total contributors
+- 4,993 total stargazers
+
+## [v5.6.17](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.17)
+
+November 19, 2024
+
+### Removals
+
+- `api.MLOperand.dataType` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLOperand.shape` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `css.at-rules.custom-media` ([#25125](https://github.com/mdn/browser-compat-data/pull/25125))
+- `css.properties.word-wrap` ([#25097](https://github.com/mdn/browser-compat-data/pull/25097))
+- `css.types.time-percentage` ([#25126](https://github.com/mdn/browser-compat-data/pull/25126))
+- `mathml.elements.ms.lquote_rquote_attributes` ([#25108](https://github.com/mdn/browser-compat-data/pull/25108))
+
+### Additions
+
+- `api.MLContext.dispatch` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLContext.opSupportLimits` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.cumulativeSum` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.dequantizeLinear` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.gatherElements` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.gatherND` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.logicalAnd` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.logicalOr` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.logicalXor` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.quantizeLinear` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.scatterElements` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.scatterND` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.sign` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLGraphBuilder.tile` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+- `api.MLOperand.MLNumber` ([#25065](https://github.com/mdn/browser-compat-data/pull/25065))
+
+### Statistics
+
+- 10 contributors have changed 1,365 files with 9,391 additions and 7,288 deletions in 32 commits ([`v5.6.16...v5.6.17`](https://github.com/mdn/browser-compat-data/compare/v5.6.16...v5.6.17))
+- 16,725 total features
+- 1,116 total contributors
+- 4,989 total stargazers
+
+## [v5.6.16](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.16)
+
+November 18, 2024
+
+### Removals
+
+- `api.HTMLDetailsElement.toggle_event` ([#24927](https://github.com/mdn/browser-compat-data/pull/24927))
+- `webextensions.api.runtime.getContext` ([#25078](https://github.com/mdn/browser-compat-data/pull/25078))
+
+### Additions
+
+- `api.AbortController.abort.reason_parameter` ([#25068](https://github.com/mdn/browser-compat-data/pull/25068))
+- `api.GPUComputePassEncoder.setBindGroup.unset_bind_group` ([#24936](https://github.com/mdn/browser-compat-data/pull/24936))
+- `api.GPURenderBundleEncoder.setBindGroup.unset_bind_group` ([#24936](https://github.com/mdn/browser-compat-data/pull/24936))
+- `api.GPURenderPassEncoder.setBindGroup.unset_bind_group` ([#24936](https://github.com/mdn/browser-compat-data/pull/24936))
+- `api.HTMLElement.beforetoggle_event.dialog_elements` ([#24927](https://github.com/mdn/browser-compat-data/pull/24927))
+- `api.HTMLElement.beforetoggle_event.popover_elements` ([#24927](https://github.com/mdn/browser-compat-data/pull/24927))
+- `api.HTMLElement.inert.ignores_find_in_page` ([#24925](https://github.com/mdn/browser-compat-data/pull/24925))
+- `api.HTMLElement.toggle_event.details_elements` ([#24927](https://github.com/mdn/browser-compat-data/pull/24927))
+- `api.HTMLElement.toggle_event.dialog_elements` ([#24927](https://github.com/mdn/browser-compat-data/pull/24927))
+- `api.HTMLElement.toggle_event.popover_elements` ([#24927](https://github.com/mdn/browser-compat-data/pull/24927))
+- `api.PublicKeyCredential.signalAllAcceptedCredentials_static` ([#25070](https://github.com/mdn/browser-compat-data/pull/25070))
+- `api.PublicKeyCredential.signalCurrentUserDetails_static` ([#25070](https://github.com/mdn/browser-compat-data/pull/25070))
+- `api.PublicKeyCredential.signalUnknownCredential_static` ([#25070](https://github.com/mdn/browser-compat-data/pull/25070))
+- `browsers.nodejs.releases.20.8.0` ([#25020](https://github.com/mdn/browser-compat-data/pull/25020))
+- `webextensions.api.runtime.getContexts` ([#25078](https://github.com/mdn/browser-compat-data/pull/25078))
+
+### Statistics
+
+- 14 contributors have changed 109 files with 1,688 additions and 1,079 deletions in 39 commits ([`v5.6.15...v5.6.16`](https://github.com/mdn/browser-compat-data/compare/v5.6.15...v5.6.16))
+- 16,716 total features
+- 1,116 total contributors
+- 4,986 total stargazers
+
+## [v5.6.15](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.15)
+
+November 12, 2024
+
+### Removals
+
+- `css.selectors.blank` ([#24976](https://github.com/mdn/browser-compat-data/pull/24976))
+- `css.selectors.column` ([#24976](https://github.com/mdn/browser-compat-data/pull/24976))
+- `http.headers.Sec-CH-Save-Data` ([#25043](https://github.com/mdn/browser-compat-data/pull/25043))
+
+### Additions
+
+- `api.ServiceWorkerContainer.worker_support` ([#24993](https://github.com/mdn/browser-compat-data/pull/24993))
+- `browsers.nodejs.releases.22.1.0` ([#25050](https://github.com/mdn/browser-compat-data/pull/25050))
+
+### Statistics
+
+- 10 contributors have changed 44 files with 247 additions and 315 deletions in 25 commits ([`v5.6.14...v5.6.15`](https://github.com/mdn/browser-compat-data/compare/v5.6.14...v5.6.15))
+- 16,704 total features
+- 1,115 total contributors
+- 4,975 total stargazers
+
+## [v5.6.14](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.14)
+
+November 8, 2024
+
+### Removals
+
+- `css.types.frequency` ([#24969](https://github.com/mdn/browser-compat-data/pull/24969))
+- `css.types.frequency-percentage` ([#24969](https://github.com/mdn/browser-compat-data/pull/24969))
+- `css.types.frequency.hz` ([#24969](https://github.com/mdn/browser-compat-data/pull/24969))
+- `css.types.frequency.khz` ([#24969](https://github.com/mdn/browser-compat-data/pull/24969))
+
+### Additions
+
+- `browsers.chrome_android.releases.134` ([#24995](https://github.com/mdn/browser-compat-data/pull/24995))
+- `browsers.chrome.releases.134` ([#24995](https://github.com/mdn/browser-compat-data/pull/24995))
+- `browsers.nodejs.releases.23.0.0` ([#24953](https://github.com/mdn/browser-compat-data/pull/24953))
+- `browsers.webview_android.releases.134` ([#24995](https://github.com/mdn/browser-compat-data/pull/24995))
+- `html.manifest.display.browser` ([#24970](https://github.com/mdn/browser-compat-data/pull/24970))
+- `html.manifest.display.fullscreen` ([#24970](https://github.com/mdn/browser-compat-data/pull/24970))
+- `html.manifest.display.minimal-ui` ([#24970](https://github.com/mdn/browser-compat-data/pull/24970))
+- `html.manifest.display.standalone` ([#24970](https://github.com/mdn/browser-compat-data/pull/24970))
+
+### Statistics
+
+- 8 contributors have changed 42 files with 362 additions and 308 deletions in 21 commits ([`v5.6.13...v5.6.14`](https://github.com/mdn/browser-compat-data/compare/v5.6.13...v5.6.14))
+- 16,706 total features
+- 1,115 total contributors
+- 4,963 total stargazers
+
+## [v5.6.13](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.13)
+
+November 5, 2024
+
+### Removals
+
+- `api.HTMLButtonElement.commandfor` ([#24917](https://github.com/mdn/browser-compat-data/pull/24917))
+- `http.headers.Permissions-Policy.gamepad` ([#23470](https://github.com/mdn/browser-compat-data/pull/23470))
+- `http.headers.Permissions-Policy.speaker-selection` ([#23470](https://github.com/mdn/browser-compat-data/pull/23470))
+
+### Additions
+
+- `api.CredentialsContainer.create.publicKey_option.attestation` ([#24236](https://github.com/mdn/browser-compat-data/pull/24236))
+- `api.CredentialsContainer.create.publicKey_option.attestation.direct` ([#24236](https://github.com/mdn/browser-compat-data/pull/24236))
+- `api.CredentialsContainer.create.publicKey_option.attestation.enterprise` ([#24236](https://github.com/mdn/browser-compat-data/pull/24236))
+- `api.CredentialsContainer.create.publicKey_option.attestation.indirect` ([#24236](https://github.com/mdn/browser-compat-data/pull/24236))
+- `api.CredentialsContainer.create.publicKey_option.attestation.none` ([#24236](https://github.com/mdn/browser-compat-data/pull/24236))
+- `api.GPUCommandEncoder.beginComputePass.timestampWrites` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUCommandEncoder.beginRenderPass.depthSlice_option` ([#24905](https://github.com/mdn/browser-compat-data/pull/24905))
+- `api.GPUCommandEncoder.beginRenderPass.timestampWrites` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUDevice.createComputePipeline.optional_entryPoint` ([#24924](https://github.com/mdn/browser-compat-data/pull/24924))
+- `api.GPUDevice.createComputePipelineAsync.optional_entryPoint` ([#24924](https://github.com/mdn/browser-compat-data/pull/24924))
+- `api.GPUDevice.createQuerySet.timestamp` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUDevice.createRenderPipeline.dual-source-blending` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUDevice.createRenderPipeline.optional_entryPoint` ([#24924](https://github.com/mdn/browser-compat-data/pull/24924))
+- `api.GPUDevice.createRenderPipelineAsync.dual-source-blending` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUDevice.createRenderPipelineAsync.optional_entryPoint` ([#24924](https://github.com/mdn/browser-compat-data/pull/24924))
+- `api.GPUQuerySet.type.timestamp` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUQueue.copyExternalImageToTexture.htmlimageelement_imagedata_source` ([#24926](https://github.com/mdn/browser-compat-data/pull/24926))
+- `api.GPUQueue.submit.validates_command_buffer_uniqueness` ([#24881](https://github.com/mdn/browser-compat-data/pull/24881))
+- `api.GPUSupportedFeatures.feature_bgra8unorm-storage` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_clip-distances` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_depth-clip-control` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_depth32float-stencil8` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_dual-source-blending` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_float32-blendable` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_float32-filterable` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_indirect-first-instance` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_rg11b10ufloat-renderable` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_shader-f16` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_texture-compression-astc` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_texture-compression-bc` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_texture-compression-etc2` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.GPUSupportedFeatures.feature_timestamp-query` ([#24760](https://github.com/mdn/browser-compat-data/pull/24760))
+- `api.HTMLButtonElement.commandForElement` ([#24917](https://github.com/mdn/browser-compat-data/pull/24917))
+- `api.ReadableStreamBYOBReader.read.options_min_parameter` ([#24923](https://github.com/mdn/browser-compat-data/pull/24923))
+- `browsers.nodejs.releases.12.19.0` ([#24906](https://github.com/mdn/browser-compat-data/pull/24906))
+- `browsers.nodejs.releases.14.17.0` ([#24900](https://github.com/mdn/browser-compat-data/pull/24900))
+- `browsers.nodejs.releases.20.17.0` ([#24923](https://github.com/mdn/browser-compat-data/pull/24923))
+- `browsers.nodejs.releases.21.7.0` ([#24923](https://github.com/mdn/browser-compat-data/pull/24923))
+- `css.properties.text-box` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-edge` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-edge.auto` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-trim` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-trim.none` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-trim.trim-both` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-trim.trim-end` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box-trim.trim-start` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `css.properties.text-box.normal` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+- `html.elements.button.command` ([#24917](https://github.com/mdn/browser-compat-data/pull/24917))
+- `html.elements.button.commandfor` ([#24917](https://github.com/mdn/browser-compat-data/pull/24917))
+- `javascript.builtins.RegExp.escape` ([#24939](https://github.com/mdn/browser-compat-data/pull/24939))
+
+### Statistics
+
+- 12 contributors have changed 222 files with 3,253 additions and 1,424 deletions in 38 commits ([`v5.6.12...v5.6.13`](https://github.com/mdn/browser-compat-data/compare/v5.6.12...v5.6.13))
+- 16,706 total features
+- 1,113 total contributors
+- 4,961 total stargazers
+
+## [v5.6.12](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.12)
+
+November 1, 2024
+
+### Removals
+
+- `css.properties.-webkit-text-decoration-skip` ([#24884](https://github.com/mdn/browser-compat-data/pull/24884))
+- `css.properties.-webkit-user-modify` ([#24885](https://github.com/mdn/browser-compat-data/pull/24885))
+
+### Additions
+
+- `browsers.edge.releases.133` ([#24890](https://github.com/mdn/browser-compat-data/pull/24890))
+- `browsers.firefox_android.releases.135` ([#24871](https://github.com/mdn/browser-compat-data/pull/24871))
+- `browsers.firefox.releases.135` ([#24871](https://github.com/mdn/browser-compat-data/pull/24871))
+- `browsers.nodejs.releases.18.13.0` ([#24797](https://github.com/mdn/browser-compat-data/pull/24797))
+- `browsers.nodejs.releases.19.2.0` ([#24797](https://github.com/mdn/browser-compat-data/pull/24797))
+- `browsers.safari_ios.releases.18.2` ([#24901](https://github.com/mdn/browser-compat-data/pull/24901))
+- `browsers.safari.releases.18.2` ([#24901](https://github.com/mdn/browser-compat-data/pull/24901))
+- `browsers.webview_ios.releases.18.2` ([#24901](https://github.com/mdn/browser-compat-data/pull/24901))
+- `svg.global_attributes.autofocus` ([#24574](https://github.com/mdn/browser-compat-data/pull/24574))
+
+### Statistics
+
+- 9 contributors have changed 57 files with 330 additions and 206 deletions in 32 commits ([`v5.6.11...v5.6.12`](https://github.com/mdn/browser-compat-data/compare/v5.6.11...v5.6.12))
+- 16,663 total features
+- 1,112 total contributors
+- 4,956 total stargazers
+
+## [v5.6.11](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.11)
+
+October 29, 2024
+
+### Removals
+
+- `api.InkPresenter` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.InkPresenter.expectedImprovement` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.InkPresenter.presentationArea` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.InkPresenter.updateInkTrailStartPoint` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `css.properties.align-self.positioned_boxes` ([#24865](https://github.com/mdn/browser-compat-data/pull/24865))
+- `css.properties.justify-self.positioned_boxes` ([#24865](https://github.com/mdn/browser-compat-data/pull/24865))
+- `css.properties.place-self.positioned_boxes` ([#24865](https://github.com/mdn/browser-compat-data/pull/24865))
+
+### Additions
+
+- `api.DelegatedInkTrailPresenter` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.DelegatedInkTrailPresenter.expectedImprovement` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.DelegatedInkTrailPresenter.presentationArea` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.DelegatedInkTrailPresenter.updateInkTrailStartPoint` ([#24856](https://github.com/mdn/browser-compat-data/pull/24856))
+- `api.GPUDevice.createRenderPipeline.validates_depth_bias_for_line_and_point_topologies` ([#24811](https://github.com/mdn/browser-compat-data/pull/24811))
+- `api.GPUDevice.createRenderPipelineAsync.validates_depth_bias_for_line_and_point_topologies` ([#24811](https://github.com/mdn/browser-compat-data/pull/24811))
+- `api.HTMLAnchorElement.hrefTranslate` ([#24861](https://github.com/mdn/browser-compat-data/pull/24861))
+- `api.SharedStorage.createWorklet` ([#24855](https://github.com/mdn/browser-compat-data/pull/24855))
+- `api.SharedStorage.get` ([#24855](https://github.com/mdn/browser-compat-data/pull/24855))
+- `api.SharedStorage.run` ([#24855](https://github.com/mdn/browser-compat-data/pull/24855))
+- `api.SharedStorage.selectURL` ([#24855](https://github.com/mdn/browser-compat-data/pull/24855))
+- `api.SharedStorage.worklet` ([#24855](https://github.com/mdn/browser-compat-data/pull/24855))
+- `css.properties.align-self.position_absolute_context` ([#24865](https://github.com/mdn/browser-compat-data/pull/24865))
+- `css.properties.display.contents.focusable_elements` ([#24766](https://github.com/mdn/browser-compat-data/pull/24766))
+- `css.properties.justify-self.position_absolute_context` ([#24865](https://github.com/mdn/browser-compat-data/pull/24865))
+- `css.properties.place-self.position_absolute_context` ([#24865](https://github.com/mdn/browser-compat-data/pull/24865))
+- `html.elements.a.hreftranslate` ([#24861](https://github.com/mdn/browser-compat-data/pull/24861))
+- `javascript.builtins.Uint8Array.fromBase64` ([#24863](https://github.com/mdn/browser-compat-data/pull/24863))
+- `javascript.builtins.Uint8Array.fromHex` ([#24863](https://github.com/mdn/browser-compat-data/pull/24863))
+- `javascript.builtins.Uint8Array.setFromBase64` ([#24863](https://github.com/mdn/browser-compat-data/pull/24863))
+- `javascript.builtins.Uint8Array.setFromHex` ([#24863](https://github.com/mdn/browser-compat-data/pull/24863))
+- `javascript.builtins.Uint8Array.toBase64` ([#24863](https://github.com/mdn/browser-compat-data/pull/24863))
+- `javascript.builtins.Uint8Array.toHex` ([#24863](https://github.com/mdn/browser-compat-data/pull/24863))
+
+### Statistics
+
+- 9 contributors have changed 38 files with 801 additions and 165 deletions in 22 commits ([`v5.6.10...v5.6.11`](https://github.com/mdn/browser-compat-data/compare/v5.6.10...v5.6.11))
+- 16,664 total features
+- 1,111 total contributors
+- 4,957 total stargazers
+
 ## [v5.6.10](https://github.com/mdn/browser-compat-data/releases/tag/v5.6.10)
 
 October 25, 2024

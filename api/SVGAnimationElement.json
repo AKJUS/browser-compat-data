@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement",
         "spec_url": "https://svgwg.org/specs/animations/#InterfaceSVGAnimationElement",
+        "tags": [
+          "web-features:smil-svg-animations"
+        ],
         "support": {
           "chrome": {
             "version_added": "2"
@@ -44,6 +47,11 @@
       },
       "beginElement": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElement",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__beginElement",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -83,6 +91,11 @@
       },
       "beginElementAt": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElementAt",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__beginElementAt",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -122,9 +135,12 @@
       },
       "beginEvent_event": {
         "__compat": {
-          "description": "<code>beginEvent</code> event",
+          "description": "`beginEvent` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginEvent_event",
           "spec_url": "https://svgwg.org/svg2-draft/interact.html#BeginEvent",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": [
               {
@@ -134,7 +150,7 @@
                 "version_added": "31",
                 "version_removed": "35",
                 "partial_implementation": true,
-                "notes": "The <code>onbegin</code> event handler property is not supported."
+                "notes": "The `onbegin` event handler property is not supported."
               }
             ],
             "chrome_android": "mirror",
@@ -147,7 +163,7 @@
                 "version_added": "6",
                 "version_removed": "93",
                 "partial_implementation": true,
-                "notes": "The <code>onbegin</code> event handler property is not supported."
+                "notes": "The `onbegin` event handler property is not supported."
               }
             ],
             "firefox_android": "mirror",
@@ -160,7 +176,7 @@
             "safari": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onbegin</code> event handler property is not supported."
+              "notes": "The `onbegin` event handler property is not supported."
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -176,6 +192,11 @@
       },
       "endElement": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElement",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__endElement",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -215,6 +236,11 @@
       },
       "endElementAt": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElementAt",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__endElementAt",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -254,9 +280,12 @@
       },
       "endEvent_event": {
         "__compat": {
-          "description": "<code>endEvent</code> event",
+          "description": "`endEvent` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endEvent_event",
           "spec_url": "https://svgwg.org/svg2-draft/interact.html#EndEvent",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": [
               {
@@ -266,7 +295,7 @@
                 "version_added": "31",
                 "version_removed": "35",
                 "partial_implementation": true,
-                "notes": "The <code>onend</code> event handler property is not supported."
+                "notes": "The `onend` event handler property is not supported."
               }
             ],
             "chrome_android": "mirror",
@@ -279,7 +308,7 @@
                 "version_added": "6",
                 "version_removed": "93",
                 "partial_implementation": true,
-                "notes": "The <code>onend</code> event handler property is not supported."
+                "notes": "The `onend` event handler property is not supported."
               }
             ],
             "firefox_android": "mirror",
@@ -292,7 +321,7 @@
             "safari": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onend</code> event handler property is not supported."
+              "notes": "The `onend` event handler property is not supported."
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -308,6 +337,10 @@
       },
       "getCurrentTime": {
         "__compat": {
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__getCurrentTime",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -347,6 +380,10 @@
       },
       "getSimpleDuration": {
         "__compat": {
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__getSimpleDuration",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -386,6 +423,10 @@
       },
       "getStartTime": {
         "__compat": {
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__getStartTime",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -425,9 +466,12 @@
       },
       "repeatEvent_event": {
         "__compat": {
-          "description": "<code>repeatEvent</code> event",
+          "description": "`repeatEvent` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/repeatEvent_event",
           "spec_url": "https://svgwg.org/svg2-draft/interact.html#RepeatEvent",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": [
               {
@@ -437,7 +481,7 @@
                 "version_added": "31",
                 "version_removed": "35",
                 "partial_implementation": true,
-                "notes": "The <code>onrepeat</code> event handler property is not supported."
+                "notes": "The `onrepeat` event handler property is not supported."
               }
             ],
             "chrome_android": "mirror",
@@ -450,7 +494,7 @@
                 "version_added": "6",
                 "version_removed": "93",
                 "partial_implementation": true,
-                "notes": "The <code>onrepeat</code> event handler property is not supported."
+                "notes": "The `onrepeat` event handler property is not supported."
               }
             ],
             "firefox_android": "mirror",
@@ -463,7 +507,7 @@
             "safari": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onrepeat</code> event handler property is not supported."
+              "notes": "The `onrepeat` event handler property is not supported."
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -479,7 +523,11 @@
       },
       "requiredExtensions": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/requiredExtensions",
           "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -521,7 +569,11 @@
       },
       "systemLanguage": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/systemLanguage",
           "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -565,6 +617,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/targetElement",
           "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__targetElement",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
