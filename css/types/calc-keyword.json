@@ -1,10 +1,11 @@
 {
   "css": {
     "types": {
-      "calc-constant": {
+      "calc-keyword": {
         "__compat": {
-          "description": "<code>&lt;calc-constant&gt;</code>",
-          "spec_url": "https://drafts.csswg.org/css-values/#calc-constants",
+          "description": "`&lt;calc-keyword&gt;`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-keyword",
+          "spec_url": "https://drafts.csswg.org/css-values/#typedef-calc-keyword",
           "tags": [
             "web-features:calc-constants"
           ],
@@ -40,7 +41,7 @@
         },
         "NaN": {
           "__compat": {
-            "description": "<code>NaN</code> constant",
+            "description": "`NaN` constant",
             "tags": [
               "web-features:calc-constants"
             ],
@@ -77,7 +78,7 @@
         },
         "e": {
           "__compat": {
-            "description": "<code>e</code> constant",
+            "description": "`e` constant",
             "tags": [
               "web-features:calc-constants"
             ],
@@ -114,7 +115,7 @@
         },
         "infinity": {
           "__compat": {
-            "description": "<code>infinity</code> and <code>-infinity</code> constants",
+            "description": "`infinity` and `-infinity` constants",
             "tags": [
               "web-features:calc-constants"
             ],
@@ -151,7 +152,7 @@
         },
         "pi": {
           "__compat": {
-            "description": "<code>pi</code> constant",
+            "description": "`pi` constant",
             "tags": [
               "web-features:calc-constants"
             ],
