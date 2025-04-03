@@ -3,8 +3,11 @@
     "api": {
       "Exception": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Exception",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception",
           "spec_url": "https://webassembly.github.io/exception-handling/js-api/#runtime-exceptions",
+          "tags": [
+            "web-features:wasm-exception-handling"
+          ],
           "support": {
             "chrome": {
               "version_added": "95"
@@ -43,9 +46,12 @@
         },
         "Exception": {
           "__compat": {
-            "description": "<code>Exception()</code> constructor",
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Exception/Exception",
+            "description": "`Exception()` constructor",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception",
             "spec_url": "https://webassembly.github.io/exception-handling/js-api/#dom-exception-exception",
+            "tags": [
+              "web-features:wasm-exception-handling"
+            ],
             "support": {
               "chrome": {
                 "version_added": "95"
@@ -84,8 +90,11 @@
           },
           "options_parameter_traceStack": {
             "__compat": {
-              "description": "<code>options.traceStack</code> parameter",
-              "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Exception/Exception",
+              "description": "`options.traceStack` parameter",
+              "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception",
+              "tags": [
+                "web-features:wasm-exception-handling"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "95"
@@ -126,8 +135,11 @@
         },
         "getArg": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Exception/getArg",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/getArg",
             "spec_url": "https://webassembly.github.io/exception-handling/js-api/#dom-exception-getarg",
+            "tags": [
+              "web-features:wasm-exception-handling"
+            ],
             "support": {
               "chrome": {
                 "version_added": "95"
@@ -167,8 +179,11 @@
         },
         "is": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Exception/is",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/is",
             "spec_url": "https://webassembly.github.io/exception-handling/js-api/#dom-exception-is",
+            "tags": [
+              "web-features:wasm-exception-handling"
+            ],
             "support": {
               "chrome": {
                 "version_added": "95"
@@ -209,7 +224,10 @@
         "stack": {
           "__compat": {
             "description": "Stack trace",
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Exception",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Exception/stack",
+            "tags": [
+              "web-features:wasm-exception-handling"
+            ],
             "support": {
               "chrome": {
                 "version_added": "95"

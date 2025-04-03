@@ -18,6 +18,8 @@ Compatibility data is organized in top-level directories for each broad area cov
 
 - [javascript/](../javascript) contains data for [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) built-in Objects, statement, operators, and other ECMAScript language features.
 
+- [manifests/](../manifests) contains data for various manifests, such as the [Web Application Manifest](https://developer.mozilla.org/docs/Web/Progressive_web_apps/manifest).
+
 - [mathml/](../mathml) contains data for [MathML](https://developer.mozilla.org/docs/Web/MathML) elements, attributes, and global attributes.
 
 - [svg/](../svg) contains data for [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) elements, attributes, and global attributes.
@@ -87,7 +89,7 @@ Here is an example of a `__compat` statement, with all of the properties and the
       "fake_event": {
         // ↓↓↓↓↓↓
         "__compat": {
-          "description": "<code>fake</code> event", // A friendly description of the feature
+          "description": "`fake` event", // A friendly description of the feature
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Document/fake_event", // The associated MDN article
           "spec_url": [
             // The spec URL(s) for the feature if applicable, may be one or many
@@ -100,7 +102,7 @@ Here is an example of a `__compat` statement, with all of the properties and the
               // Supported since Chrome 57 on
               "version_added": "57",
             },
-            "chrome_android": "mirror", // Mirrors from Chrome Desktop, so "57"
+            "chrome_android": "mirror", // Mirrors from the upstream browser -- in this case, it is Chrome Desktop, so the data becomes "57"
             "edge": {
               // Supported since Edge 12, with a note about a difference in behavior
               "version_added": "12",
@@ -112,24 +114,21 @@ Here is an example of a `__compat` statement, with all of the properties and the
               "version_removed": "80",
             },
             "firefox_android": {
-              // Supported in Firefox Android, we just don't know what version it was added in
-              "version_added": true,
+              // Support is known to be in at least Firefox Android 50, but it could have been added earlier
+              "version_added": "≤50",
             },
             "ie": {
               // Supported since IE 10, but has a caveat that impacts compatibility
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onfake</code> event handler property is not supported.",
+              "notes": "The `onfake` event handler property is not supported.",
             },
             "oculus": "mirror",
             "opera": {
               // Not supported at all in Opera
               "version_added": false,
             },
-            "opera_android": {
-              // We don't know if Opera Android supports this or not
-              "version_added": null,
-            },
+            "opera_android": "mirror",
             "safari": [
               // A support statement can be an array of multiple statements to better describe the compatibility story
               {
@@ -148,6 +147,7 @@ Here is an example of a `__compat` statement, with all of the properties and the
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": "mirror",
+            // If a browser is not defined, it means we don't have support information for that browser (or for web extensions, the browser has no support at all)
           },
           "status": {
             // Standards track, deprecation and experimental status
@@ -174,7 +174,7 @@ The `__compat` object consists of the following:
 - An optional `description` property to **describe the feature**.
   A string containing a human-readable description of the feature.
   It is intended to be used as a caption or title and should be kept short.
-  The `<code>`, `<kbd>`, `<em>`, and `<strong>` HTML elements may be used.
+  This property may be formatted using Markdown, see the rules for `notes`.
 
 - An automated `source_file` property containing the path to the source file containing the feature. This is used to create links to the repository source (in the form of `https://github.com/mdn/browser-compat-data/blob/main/<source_file>`). For example, `api.History.forward` will contain a `source_file` property of `api/History.json` since the feature is defined in that file.
 
@@ -188,7 +188,7 @@ The `__compat` object consists of the following:
 - An optional `tags` property which is an array of strings allowing to assign tags to the feature.
   Each tag in the array must be namespaced. The currently allowed namespaces are:
 
-  - `web-features`: A namespace to tag features belonging to a web platform feature group as defined by [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features/blob/main/feature-group-definitions/README.md).
+  - `web-features`: A namespace to tag features belonging to a web platform feature group as defined by [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features/blob/main/features/README.md).
 
   For more information, see the [tagging data guidelines](../docs/data-guidelines/tags.md).
 
@@ -295,14 +295,6 @@ This is the only mandatory property and it contains a string with the version nu
 }
 ```
 
-- Supported, but version unknown:
-
-```json
-{
-  "version_added": true
-}
-```
-
 - No support:
 
 ```json
@@ -311,24 +303,9 @@ This is the only mandatory property and it contains a string with the version nu
 }
 ```
 
-- Support unknown (default value, if browser omitted):
-
-```json
-{
-  "version_added": null
-}
-```
-
-Note: many data categories no longer allow for `version_added` to be set to `true` or `null`, as we are working to [improve the quality of the compatibility data](https://github.com/mdn/browser-compat-data/issues/3555).
-
 #### `version_removed`
 
 Contains a string with the version number the sub-feature was removed in. It may also be `true`, meaning that it is unknown in which version support was removed. If the feature has not been removed from the browser, this property is omitted, rather than being set to `false`.
-
-Default values:
-
-- If `version_added` is set to `true`, `false`, or a string, `version_removed` defaults to `false`.
-- If `version_added` is set to `null`, the default value of `version_removed` is also `null`.
 
 Examples:
 
@@ -340,17 +317,6 @@ Examples:
   "version_removed": "10"
 }
 ```
-
-- Removed in some version after 4:
-
-```json
-{
-  "version_added": "4",
-  "version_removed": true
-}
-```
-
-Note: many data categories no longer allow for `version_removed` to be set to `true`, as we are working to [improve the quality of the compatibility data](https://github.com/mdn/browser-compat-data/issues/3555).
 
 #### `version_last`
 
@@ -430,13 +396,13 @@ An optional array of objects describing flags that must be configured for this b
   - `preference` a flag the user can set (like in `about:config` in Firefox).
   - `runtime_flag` a flag to be set before starting the browser.
 - `name` (mandatory): a string giving the value which the specified flag must be set to for this feature to work.
-- `value_to_set` (optional): representing the actual value to set the flag to. It is a string, that may be converted to the right type (that is `true` or `false` for Boolean value, or `4` for an integer value). It doesn't need to be enclosed in `<code>` tags.
+- `value_to_set` (optional): representing the actual value to set the flag to. It is a string, that may be converted to the right type (that is `true` or `false` for Boolean value, or `4` for an integer value). It doesn't need to be enclosed in backticks.
 
 Example for one flag required:
 
 ```json
 {
-  "version_added": true,
+  "version_added": "40",
   "flags": [
     {
       "type": "preference",
@@ -451,7 +417,7 @@ Example for two flags required:
 
 ```json
 {
-  "version_added": true,
+  "version_added": "40",
   "flags": [
     {
       "type": "preference",
@@ -486,12 +452,12 @@ Example:
   "version_added": "3.5",
   "notes": [
     "Does not work on ::first-letter pseudo-elements.",
-    "Has not been updated to the latest specification, see <a href='https://bugzil.la/1234567'>bug 1234567</a>."
+    "Has not been updated to the latest specification, see [bug 1234567](https://bugzil.la/1234567)."
   ]
 }
 ```
 
-The `<code>`, `<kbd>`, `<em>`, and `<strong>` HTML elements may be used. In addition, `<a>` tags may be used, such as to link to a browser's bug report, or MDN documentation. Do not format `notes` as Markdown.
+Notes may be formatted in Markdown. Only links, bold, italics, codeblocks, and `<kbd>` may be used. Headers, tables and other Markdown features or HTML elements may not be used.
 
 #### `partial_implementation`
 

@@ -3,7 +3,7 @@
     "selectors": {
       "-webkit-slider-thumb": {
         "__compat": {
-          "description": "<code>::-webkit-slider-thumb</code>",
+          "description": "`::-webkit-slider-thumb`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-webkit-slider-thumb",
           "support": {
             "chrome": {
@@ -22,7 +22,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -30,8 +30,8 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
+            "experimental": false,
+            "standard_track": false,
             "deprecated": false
           }
         }

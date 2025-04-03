@@ -3,8 +3,11 @@
     "elements": {
       "mspace": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Element/mspace",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Reference/Element/mspace",
           "spec_url": "https://w3c.github.io/mathml-core/#space-mspace",
+          "tags": [
+            "web-features:mathml"
+          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -38,6 +41,9 @@
         "depth": {
           "__compat": {
             "spec_url": "https://w3c.github.io/mathml-core/#attribute-mspace-depth",
+            "tags": [
+              "web-features:mathml"
+            ],
             "support": {
               "chrome": {
                 "version_added": "109"
@@ -72,6 +78,9 @@
         "height": {
           "__compat": {
             "spec_url": "https://w3c.github.io/mathml-core/#attribute-mspace-height",
+            "tags": [
+              "web-features:mathml"
+            ],
             "support": {
               "chrome": {
                 "version_added": "109"
@@ -105,8 +114,8 @@
         },
         "named_spaces": {
           "__compat": {
-            "description": "Named spaces (e.g. <code>thinmathspace</code> to mean 3/18em) for <code>width</code>, <code>height</code> and <code>depth</code> attributes",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Values",
+            "description": "Named spaces (e.g. `thinmathspace` to mean 3/18em) for `width`, `height` and `depth` attributes",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Reference/Values",
             "support": {
               "chrome": {
                 "version_added": false
@@ -141,6 +150,9 @@
         "width": {
           "__compat": {
             "spec_url": "https://w3c.github.io/mathml-core/#attribute-mspace-width",
+            "tags": [
+              "web-features:mathml"
+            ],
             "support": {
               "chrome": {
                 "version_added": "109"

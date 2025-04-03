@@ -4,6 +4,7 @@
       "Temporal": {
         "Now": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now",
             "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal-now-object",
             "tags": [
               "web-features:temporal"
@@ -11,7 +12,7 @@
             "support": {
               "chrome": {
                 "version_added": false,
-                "impl_url": "https://crbug.com/v8/11544"
+                "impl_url": "https://crbug.com/42201538"
               },
               "chrome_android": "mirror",
               "deno": {
@@ -25,8 +26,8 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "impl_url": "https://bugzil.la/1519167"
+                "version_added": "preview",
+                "impl_url": "https://bugzil.la/1912511"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -55,6 +56,7 @@
           },
           "instant": {
             "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/instant",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.now.instant",
               "tags": [
                 "web-features:temporal"
@@ -62,7 +64,7 @@
               "support": {
                 "chrome": {
                   "version_added": false,
-                  "impl_url": "https://crbug.com/v8/11544"
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -76,8 +78,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false,
-                  "impl_url": "https://bugzil.la/1519167"
+                  "version_added": "preview",
+                  "impl_url": "https://bugzil.la/1912511"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -107,6 +109,7 @@
           },
           "plainDateISO": {
             "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainDateISO",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.now.plaindateiso",
               "tags": [
                 "web-features:temporal"
@@ -114,7 +117,7 @@
               "support": {
                 "chrome": {
                   "version_added": false,
-                  "impl_url": "https://crbug.com/v8/11544"
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -128,8 +131,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false,
-                  "impl_url": "https://bugzil.la/1519167"
+                  "version_added": "preview",
+                  "impl_url": "https://bugzil.la/1912511"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -159,6 +162,7 @@
           },
           "plainDateTimeISO": {
             "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainDateTimeISO",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.now.plaindatetimeiso",
               "tags": [
                 "web-features:temporal"
@@ -166,7 +170,7 @@
               "support": {
                 "chrome": {
                   "version_added": false,
-                  "impl_url": "https://crbug.com/v8/11544"
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -180,8 +184,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false,
-                  "impl_url": "https://bugzil.la/1519167"
+                  "version_added": "preview",
+                  "impl_url": "https://bugzil.la/1912511"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -211,6 +215,7 @@
           },
           "plainTimeISO": {
             "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainTimeISO",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.now.plaintimeiso",
               "tags": [
                 "web-features:temporal"
@@ -218,7 +223,7 @@
               "support": {
                 "chrome": {
                   "version_added": false,
-                  "impl_url": "https://crbug.com/v8/11544"
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -232,8 +237,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false,
-                  "impl_url": "https://bugzil.la/1519167"
+                  "version_added": "preview",
+                  "impl_url": "https://bugzil.la/1912511"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -261,8 +266,9 @@
               }
             }
           },
-          "timeZoneID": {
+          "timeZoneId": {
             "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/timeZoneId",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.now.timezoneid",
               "tags": [
                 "web-features:temporal"
@@ -270,7 +276,7 @@
               "support": {
                 "chrome": {
                   "version_added": false,
-                  "impl_url": "https://crbug.com/v8/11544"
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -284,8 +290,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false,
-                  "impl_url": "https://bugzil.la/1519167"
+                  "version_added": "preview",
+                  "impl_url": "https://bugzil.la/1912511"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -315,6 +321,7 @@
           },
           "zonedDateTimeISO": {
             "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/zonedDateTimeISO",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.now.zoneddatetimeiso",
               "tags": [
                 "web-features:temporal"
@@ -322,7 +329,7 @@
               "support": {
                 "chrome": {
                   "version_added": false,
-                  "impl_url": "https://crbug.com/v8/11544"
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -336,8 +343,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false,
-                  "impl_url": "https://bugzil.la/1519167"
+                  "version_added": "preview",
+                  "impl_url": "https://bugzil.la/1912511"
                 },
                 "firefox_android": "mirror",
                 "ie": {

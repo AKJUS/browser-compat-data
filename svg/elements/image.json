@@ -3,8 +3,11 @@
     "elements": {
       "image": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/image",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/image",
           "spec_url": "https://svgwg.org/svg2-draft/embedded.html#ImageElement",
+          "tags": [
+            "web-features:svg"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -45,8 +48,11 @@
         },
         "crossorigin": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/crossorigin",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/crossorigin",
             "spec_url": "https://svgwg.org/svg2-draft/embedded.html#ImageElementCrossoriginAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "118"
@@ -80,8 +86,11 @@
         },
         "decoding": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/decoding",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/decoding",
             "spec_url": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decoding",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "65"
@@ -115,6 +124,10 @@
         },
         "height": {
           "__compat": {
+            "spec_url": "https://svgwg.org/svg2-draft/geometry.html#Sizing",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -148,7 +161,11 @@
         },
         "href": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/href",
             "spec_url": "https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "50"
@@ -184,6 +201,10 @@
         },
         "preserveAspectRatio": {
           "__compat": {
+            "spec_url": "https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -217,8 +238,11 @@
         },
         "systemLanguage": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/systemLanguage",
             "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -260,6 +284,10 @@
         },
         "width": {
           "__compat": {
+            "spec_url": "https://svgwg.org/svg2-draft/geometry.html#Sizing",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -293,6 +321,10 @@
         },
         "x": {
           "__compat": {
+            "spec_url": "https://svgwg.org/svg2-draft/geometry.html#XProperty",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -326,7 +358,11 @@
         },
         "xlink_href": {
           "__compat": {
-            "description": "<code>xlink:href</code>",
+            "description": "`xlink:href`",
+            "spec_url": "https://svgwg.org/svg2-draft/linking.html#XLinkHrefAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -360,6 +396,10 @@
         },
         "y": {
           "__compat": {
+            "spec_url": "https://svgwg.org/svg2-draft/geometry.html#YProperty",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"

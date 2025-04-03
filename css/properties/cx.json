@@ -5,16 +5,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cx",
           "spec_url": "https://svgwg.org/svg2-draft/geometry.html#CX",
+          "tags": [
+            "web-features:svg"
+          ],
           "support": {
             "chrome": {
-              "version_added": "≤80"
+              "version_added": "43"
             },
             "chrome_android": "mirror",
-            "edge": {
-              "version_added": "≤80"
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": "≤72"
+              "version_added": "69"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -24,7 +25,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "≤13.1"
+              "version_added": "9"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",

@@ -3,16 +3,13 @@
     "CommandEvent": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/CommandEvent",
+        "spec_url": "https://html.spec.whatwg.org/multipage/interaction.html#commandevent",
+        "tags": [
+          "web-features:invoker-commands"
+        ],
         "support": {
           "chrome": {
-            "version_added": "preview",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "enable-experimental-web-platform-features",
-                "value_to_set": "enabled"
-              }
-            ]
+            "version_added": "135"
           },
           "chrome_android": "mirror",
           "edge": "mirror",
@@ -58,18 +55,14 @@
       },
       "CommandEvent": {
         "__compat": {
-          "description": "<code>CommandEvent()</code> constructor",
+          "description": "`CommandEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CommandEvent/CommandEvent",
+          "tags": [
+            "web-features:invoker-commands"
+          ],
           "support": {
             "chrome": {
-              "version_added": "preview",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -117,16 +110,13 @@
       "command": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CommandEvent/command",
+          "spec_url": "https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-command",
+          "tags": [
+            "web-features:invoker-commands"
+          ],
           "support": {
             "chrome": {
-              "version_added": "preview",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -163,7 +153,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -172,16 +162,13 @@
       "source": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CommandEvent/source",
+          "spec_url": "https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-source",
+          "tags": [
+            "web-features:invoker-commands"
+          ],
           "support": {
             "chrome": {
-              "version_added": "preview",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -218,7 +205,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }

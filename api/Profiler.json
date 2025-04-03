@@ -2,6 +2,7 @@
   "api": {
     "Profiler": {
       "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/Profiler",
         "spec_url": "https://wicg.github.io/js-self-profiling/#the-profiler-interface",
         "tags": [
           "web-features:profiler"
@@ -13,7 +14,8 @@
           "chrome_android": "mirror",
           "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://bugzil.la/1867361"
           },
           "firefox_android": "mirror",
           "ie": {
@@ -38,7 +40,8 @@
       },
       "Profiler": {
         "__compat": {
-          "description": "<code>Profiler()</code> constructor",
+          "description": "`Profiler()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Profiler/Profiler",
           "spec_url": "https://wicg.github.io/js-self-profiling/#dom-profiler-constructor",
           "tags": [
             "web-features:profiler"
@@ -113,6 +116,7 @@
       },
       "stop": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Profiler/stop",
           "spec_url": "https://wicg.github.io/js-self-profiling/#dom-profiler-stop",
           "tags": [
             "web-features:profiler"

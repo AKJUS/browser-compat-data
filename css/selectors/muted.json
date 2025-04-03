@@ -3,7 +3,8 @@
     "selectors": {
       "muted": {
         "__compat": {
-          "description": "<code>:muted</code>",
+          "description": "`:muted`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:muted",
           "spec_url": [
             "https://drafts.csswg.org/selectors/#selectordef-muted",
             "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-muted"

@@ -3,8 +3,11 @@
     "elements": {
       "feDiffuseLighting": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/feDiffuseLighting",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feDiffuseLighting",
           "spec_url": "https://drafts.fxtf.org/filter-effects/#feDiffuseLightingElement",
+          "tags": [
+            "web-features:svg-filters"
+          ],
           "support": {
             "chrome": {
               "version_added": "5"
@@ -39,8 +42,11 @@
         },
         "diffuseConstant": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/diffuseConstant",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/diffuseConstant",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-diffuseconstant",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -74,8 +80,11 @@
         },
         "in": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/in",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/in",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -111,8 +120,11 @@
         },
         "kernelUnitLength": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/kernelUnitLength",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/kernelUnitLength",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-kernelunitlength",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -146,8 +158,11 @@
         },
         "surfaceScale": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/surfaceScale",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/surfaceScale",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-surfacescale",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"

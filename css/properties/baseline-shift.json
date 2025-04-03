@@ -4,12 +4,15 @@
       "baseline-shift": {
         "__compat": {
           "spec_url": [
-            "https://drafts.csswg.org/css-inline-3/#baseline-shift-property",
+            "https://drafts.csswg.org/css-inline/#baseline-shift-property",
             "https://svgwg.org/svg2-draft/text.html#BaselineShiftProperty"
+          ],
+          "tags": [
+            "web-features:baseline-shift"
           ],
           "support": {
             "chrome": {
-              "version_added": "≤80"
+              "version_added": "1"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -24,7 +27,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "≤13.1"
+              "version_added": "4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -40,9 +43,12 @@
         "baseline": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-baseline",
+            "tags": [
+              "web-features:baseline-shift"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -57,7 +63,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -74,9 +80,12 @@
         "sub": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-sub",
+            "tags": [
+              "web-features:baseline-shift"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -91,7 +100,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -108,9 +117,12 @@
         "super": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-super",
+            "tags": [
+              "web-features:baseline-shift"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "1"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -125,7 +137,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",

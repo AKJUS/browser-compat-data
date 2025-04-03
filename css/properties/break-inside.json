@@ -62,16 +62,17 @@
         },
         "auto": {
           "__compat": {
+            "tags": [
+              "web-features:page-breaks"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "50"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤80"
-              },
+              "edge": "mirror",
               "firefox": {
-                "version_added": "≤72"
+                "version_added": "65"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -81,7 +82,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -97,16 +98,17 @@
         },
         "avoid": {
           "__compat": {
+            "tags": [
+              "web-features:page-breaks"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "50"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤80"
-              },
+              "edge": "mirror",
               "firefox": {
-                "version_added": "≤72"
+                "version_added": "65"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -116,7 +118,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -132,14 +134,15 @@
         },
         "avoid-column": {
           "__compat": {
+            "tags": [
+              "web-features:column-breaks"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "50"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤80"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "92"
               },
@@ -151,7 +154,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -167,14 +170,15 @@
         },
         "avoid-page": {
           "__compat": {
+            "tags": [
+              "web-features:page-breaks"
+            ],
             "support": {
               "chrome": {
-                "version_added": "≤80"
+                "version_added": "50"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤80"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "92"
               },
@@ -186,7 +190,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "≤13.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -375,6 +379,9 @@
           },
           "avoid-page": {
             "__compat": {
+              "tags": [
+                "web-features:page-breaks"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "51"

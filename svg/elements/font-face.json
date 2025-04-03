@@ -3,8 +3,11 @@
     "elements": {
       "font-face": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/font-face",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/font-face",
           "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElement",
+          "tags": [
+            "web-features:svg-discouraged"
+          ],
           "support": {
             "chrome": {
               "version_added": "1",
@@ -39,8 +42,11 @@
         },
         "accent-height": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/accent-height",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/accent-height",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAccentHeightAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -76,8 +82,11 @@
         },
         "alphabetic": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/alphabetic",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/alphabetic",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAlphabeticAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -113,8 +122,11 @@
         },
         "ascent": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/ascent",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/ascent",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAscentAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -150,8 +162,11 @@
         },
         "bbox": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/bbox",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/bbox",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementBboxAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -187,8 +202,11 @@
         },
         "cap-height": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/cap-height",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/cap-height",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementCapHeightAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -224,8 +242,11 @@
         },
         "descent": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/descent",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/descent",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementDescentAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -261,8 +282,11 @@
         },
         "font-family": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-family",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/font-family",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontFamilyAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -298,8 +322,11 @@
         },
         "font-size": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/font-size",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontSizeAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -335,8 +362,11 @@
         },
         "font-stretch": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-stretch",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/font-stretch",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontStretchAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -372,8 +402,11 @@
         },
         "font-style": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-style",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/font-style",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontStyleAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -409,8 +442,11 @@
         },
         "font-variant": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-variant",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/font-variant",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontVariantAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -446,8 +482,11 @@
         },
         "font-weight": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-weight",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/font-weight",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontWeightAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -483,8 +522,11 @@
         },
         "hanging": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/hanging",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/hanging",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementHangingAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -520,8 +562,11 @@
         },
         "ideographic": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/ideographic",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/ideographic",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementIdeographicAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -557,8 +602,11 @@
         },
         "mathematical": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/mathematical",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/mathematical",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementMathematicalAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -594,8 +642,11 @@
         },
         "overline-position": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/overline-position",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/overline-position",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementOverlinePositionAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -631,8 +682,11 @@
         },
         "overline-thickness": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/overline-position",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/overline-position",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementOverlineThicknessAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -668,8 +722,11 @@
         },
         "panose-1": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/panose-1",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/panose-1",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementPanose1Attribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -705,8 +762,11 @@
         },
         "slope": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/slope",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/slope",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementSlopeAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -742,8 +802,11 @@
         },
         "stemh": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stemh",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/stemh",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStemhAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -779,8 +842,11 @@
         },
         "stemv": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stemv",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/stemv",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStemvAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -816,8 +882,11 @@
         },
         "strikethrough-position": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/strikethrough-position",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/strikethrough-position",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStrikeThroughPositionAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -853,8 +922,11 @@
         },
         "strikethrough-thickness": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/strikethrough-thickness",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/strikethrough-thickness",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStrikeThroughThicknessAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -890,8 +962,11 @@
         },
         "underline-position": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/underline-position",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/underline-position",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnderlinePositionAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -927,8 +1002,11 @@
         },
         "underline-thickness": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/underline-thickness",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/underline-thickness",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnderlineThicknessAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -964,8 +1042,11 @@
         },
         "unicode-range": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/unicode-range",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/unicode-range",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnicodeRangeAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1001,8 +1082,11 @@
         },
         "units-per-em": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/units-per-em",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/units-per-em",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnitsPerEmAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1038,8 +1122,11 @@
         },
         "v-alphabetic": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-alphabetic",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/v-alphabetic",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertAlphabeticAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1075,8 +1162,11 @@
         },
         "v-hanging": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-hanging",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/v-hanging",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertHangingAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1112,8 +1202,11 @@
         },
         "v-ideographic": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-ideographic",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/v-ideographic",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertIdeographicAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1149,8 +1242,11 @@
         },
         "v-mathematical": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-mathematical",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/v-mathematical",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertMathematicalAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1186,8 +1282,11 @@
         },
         "widths": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/widths",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/widths",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementWidthsAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -1223,8 +1322,11 @@
         },
         "x-height": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/x-height",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/x-height",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementXHeightAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",

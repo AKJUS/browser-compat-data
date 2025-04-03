@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope",
         "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#shared-workers-and-the-sharedworkerglobalscope-interface",
+        "tags": [
+          "web-features:shared-workers"
+        ],
         "support": {
           "chrome": {
             "version_added": "4"
@@ -61,6 +64,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/close",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworkerglobalscope-close-dev",
+          "tags": [
+            "web-features:shared-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -115,11 +121,14 @@
       },
       "connect_event": {
         "__compat": {
-          "description": "<code>connect</code> event",
+          "description": "`connect` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/connect_event",
           "spec_url": [
             "https://html.spec.whatwg.org/multipage/indices.html#event-workerglobalscope-connect",
             "https://html.spec.whatwg.org/multipage/workers.html#handler-sharedworkerglobalscope-onconnect"
+          ],
+          "tags": [
+            "web-features:shared-workers"
           ],
           "support": {
             "chrome": {
@@ -132,7 +141,7 @@
             "edge": "mirror",
             "firefox": {
               "version_added": "29",
-              "notes": "Before version 65 the <code>data</code> property of the event object was <code>null</code>; it is now initialized to an empty string, as per spec."
+              "notes": "Before version 65 the `data` property of the event object was `null`; it is now initialized to an empty string, as per spec."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -180,6 +189,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworkerglobalscope-name-dev",
+          "tags": [
+            "web-features:shared-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"

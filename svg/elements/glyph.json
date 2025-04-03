@@ -3,8 +3,11 @@
     "elements": {
       "glyph": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/glyph",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/glyph",
           "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#GlyphElement",
+          "tags": [
+            "web-features:svg-discouraged"
+          ],
           "support": {
             "chrome": {
               "version_added": "1",
@@ -39,8 +42,11 @@
         },
         "arabic-form": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/arabic-form",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/arabic-form",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementArabicFormAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -76,6 +82,9 @@
         },
         "d": {
           "__compat": {
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -111,8 +120,11 @@
         },
         "glyph-name": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/glyph-name",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/glyph-name",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementGlyphNameAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -148,6 +160,9 @@
         },
         "horiz-adv-x": {
           "__compat": {
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -183,6 +198,9 @@
         },
         "lang": {
           "__compat": {
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -218,8 +236,11 @@
         },
         "orientation": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/orientation",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/orientation",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementOrientationAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -255,8 +276,11 @@
         },
         "unicode": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/unicode",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/unicode",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementUnicodeAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -292,6 +316,9 @@
         },
         "vert-adv-y": {
           "__compat": {
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -327,6 +354,9 @@
         },
         "vert-origin-x": {
           "__compat": {
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
@@ -362,6 +392,9 @@
         },
         "vert-origin-y": {
           "__compat": {
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",

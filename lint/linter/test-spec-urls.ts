@@ -2,7 +2,7 @@
  * See LICENSE file for more information. */
 
 import chalk from 'chalk-template';
-import specData from 'web-specs' assert { type: 'json' };
+import specData from 'web-specs' with { type: 'json' };
 
 import { Linter, Logger, LinterData } from '../utils.js';
 import { CompatStatement } from '../../types/types.js';
@@ -39,6 +39,9 @@ const specsExceptions = [
   'https://github.com/WebAssembly/threads/blob/main/proposal',
   'https://github.com/WebAssembly/relaxed-simd/blob/main/proposals',
   'https://github.com/WebAssembly/multi-memory/blob/main/proposals',
+  'https://github.com/WebAssembly/memory64/blob/main/proposals/memory64/Overview.md',
+  'https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md',
+  'https://github.com/WebAssembly/function-references/blob/main/proposals/function-references/Overview.md',
 ];
 
 const allowedSpecURLs = [

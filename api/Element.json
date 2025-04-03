@@ -10,6 +10,9 @@
           "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
           "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
         ],
+        "tags": [
+          "web-features:dom"
+        ],
         "support": {
           "chrome": {
             "version_added": "1"
@@ -50,7 +53,7 @@
       },
       "DOMActivate_event": {
         "__compat": {
-          "description": "<code>DOMActivate</code> event",
+          "description": "`DOMActivate` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/DOMActivate_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-DOMActivate",
           "support": {
@@ -86,7 +89,7 @@
       },
       "DOMMouseScroll_event": {
         "__compat": {
-          "description": "<code>DOMMouseScroll</code> event",
+          "description": "`DOMMouseScroll` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/DOMMouseScroll_event",
           "support": {
             "chrome": {
@@ -121,7 +124,7 @@
       },
       "MozMousePixelScroll_event": {
         "__compat": {
-          "description": "<code>MozMousePixelScroll</code> event",
+          "description": "`MozMousePixelScroll` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/MozMousePixelScroll_event",
           "support": {
             "chrome": {
@@ -158,6 +161,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/after",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-childnode-after①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "54"
@@ -195,7 +201,7 @@
       },
       "afterscriptexecute_event": {
         "__compat": {
-          "description": "<code>afterscriptexecute</code> event",
+          "description": "`afterscriptexecute` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/afterscriptexecute_event",
           "support": {
             "chrome": {
@@ -224,7 +230,7 @@
           "status": {
             "experimental": false,
             "standard_track": false,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -269,6 +275,9 @@
           "__compat": {
             "description": "Implicit to/from keyframes are supported",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/animate#Implicit_tofrom_keyframes",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "84"
@@ -304,8 +313,11 @@
         },
         "options_composite_parameter": {
           "__compat": {
-            "description": "<code>options.composite</code> parameter",
+            "description": "`options.composite` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-composite",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "84"
@@ -339,8 +351,11 @@
         },
         "options_id_parameter": {
           "__compat": {
-            "description": "<code>options.id</code> parameter",
+            "description": "`options.id` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeanimationoptions-id",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "50"
@@ -374,8 +389,11 @@
         },
         "options_iterationComposite_parameter": {
           "__compat": {
-            "description": "<code>options.iterationComposite</code> parameter",
+            "description": "`options.iterationComposite` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-2/#dom-keyframeeffectoptions-iterationcomposite",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -409,8 +427,11 @@
         },
         "options_pseudoElement_parameter": {
           "__compat": {
-            "description": "<code>options.pseudoElement</code> parameter",
+            "description": "`options.pseudoElement` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-pseudoelement",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "84"
@@ -444,8 +465,11 @@
         },
         "options_rangeEnd_parameter": {
           "__compat": {
-            "description": "<code>options.rangeEnd</code> parameter",
+            "description": "`options.rangeEnd` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-2/#dom-keyframeanimationoptions-rangeend",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "115"
@@ -479,8 +503,11 @@
         },
         "options_rangeStart_parameter": {
           "__compat": {
-            "description": "<code>options.rangeStart</code> parameter",
+            "description": "`options.rangeStart` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-2/#dom-keyframeanimationoptions-rangestart",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "115"
@@ -514,8 +541,11 @@
         },
         "options_timeline_parameter": {
           "__compat": {
-            "description": "<code>options.timeline</code> parameter",
+            "description": "`options.timeline` parameter",
             "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-keyframeanimationoptions-timeline",
+            "tags": [
+              "web-features:web-animations"
+            ],
             "support": {
               "chrome": {
                 "version_added": "85"
@@ -550,14 +580,17 @@
       },
       "animationcancel_event": {
         "__compat": {
-          "description": "<code>animationcancel</code> event",
+          "description": "`animationcancel` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/animationcancel_event",
           "spec_url": "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationcancel",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "83",
               "partial_implementation": true,
-              "notes": "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a href='https://crbug.com/868224'>bug 868224</a>."
+              "notes": "The `onanimationcancel` event handler property is not supported. To listen to this event, use `element.addEventListener('animationcancel', function() {});`. See [bug 41404325](https://crbug.com/41404325)."
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -579,7 +612,7 @@
                 "version_added": "12",
                 "version_removed": "13.1",
                 "partial_implementation": true,
-                "notes": "Although the <code>onanimationcancel</code> event handler property is supported, the <code>animationcancel</code> event is never fired."
+                "notes": "Although the `onanimationcancel` event handler property is supported, the `animationcancel` event is never fired."
               }
             ],
             "safari_ios": "mirror",
@@ -596,9 +629,12 @@
       },
       "animationend_event": {
         "__compat": {
-          "description": "<code>animationend</code> event",
+          "description": "`animationend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/animationend_event",
           "spec_url": "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationend",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": [
               {
@@ -612,7 +648,7 @@
                 "version_added": "43",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationend</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationend', function() {});</code>."
+                "notes": "The `onanimationend` event handler property is not supported. To listen to this event, use `document.addEventListener('animationend', function() {});`."
               }
             ],
             "chrome_android": "mirror",
@@ -628,7 +664,7 @@
                 "version_added": "12",
                 "version_removed": "18",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationend</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationend', function() {});</code>."
+                "notes": "The `onanimationend` event handler property is not supported. To listen to this event, use `document.addEventListener('animationend', function() {});`."
               }
             ],
             "firefox": [
@@ -639,14 +675,14 @@
                 "version_added": "5",
                 "version_removed": "51",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationend</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationend', function() {});</code>."
+                "notes": "The `onanimationend` event handler property is not supported. To listen to this event, use `document.addEventListener('animationend', function() {});`."
               }
             ],
             "firefox_android": "mirror",
             "ie": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onanimationend</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationend', function() {});</code>."
+              "notes": "The `onanimationend` event handler property is not supported. To listen to this event, use `document.addEventListener('animationend', function() {});`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -668,9 +704,12 @@
       },
       "animationiteration_event": {
         "__compat": {
-          "description": "<code>animationiteration</code> event",
+          "description": "`animationiteration` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/animationiteration_event",
           "spec_url": "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationiteration",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": [
               {
@@ -684,7 +723,7 @@
                 "version_added": "43",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationiteration</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationiteration', function() {});</code>."
+                "notes": "The `onanimationiteration` event handler property is not supported. To listen to this event, use `document.addEventListener('animationiteration', function() {});`."
               }
             ],
             "chrome_android": "mirror",
@@ -700,7 +739,7 @@
                 "version_added": "12",
                 "version_removed": "18",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationiteration</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationiteration', function() {});</code>."
+                "notes": "The `onanimationiteration` event handler property is not supported. To listen to this event, use `document.addEventListener('animationiteration', function() {});`."
               }
             ],
             "firefox": [
@@ -711,14 +750,14 @@
                 "version_added": "5",
                 "version_removed": "51",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationiteration</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationiteration', function() {});</code>."
+                "notes": "The `onanimationiteration` event handler property is not supported. To listen to this event, use `document.addEventListener('animationiteration', function() {});`."
               }
             ],
             "firefox_android": "mirror",
             "ie": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onanimationiteration</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationiteration', function() {});</code>."
+              "notes": "The `onanimationiteration` event handler property is not supported. To listen to this event, use `document.addEventListener('animationiteration', function() {});`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -740,9 +779,12 @@
       },
       "animationstart_event": {
         "__compat": {
-          "description": "<code>animationstart</code> event",
+          "description": "`animationstart` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/animationstart_event",
           "spec_url": "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationstart",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": [
               {
@@ -756,7 +798,7 @@
                 "version_added": "43",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationstart</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>."
+                "notes": "The `onanimationstart` event handler property is not supported. To listen to this event, use `document.addEventListener('animationstart', function() {});`."
               }
             ],
             "chrome_android": "mirror",
@@ -772,7 +814,7 @@
                 "version_added": "12",
                 "version_removed": "18",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationstart</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>."
+                "notes": "The `onanimationstart` event handler property is not supported. To listen to this event, use `document.addEventListener('animationstart', function() {});`."
               }
             ],
             "firefox": [
@@ -783,14 +825,14 @@
                 "version_added": "5",
                 "version_removed": "51",
                 "partial_implementation": true,
-                "notes": "The <code>onanimationstart</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>."
+                "notes": "The `onanimationstart` event handler property is not supported. To listen to this event, use `document.addEventListener('animationstart', function() {});`."
               }
             ],
             "firefox_android": "mirror",
             "ie": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>onanimationstart</code> event handler property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>."
+              "notes": "The `onanimationstart` event handler property is not supported. To listen to this event, use `document.addEventListener('animationstart', function() {});`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -814,6 +856,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/append",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-append①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "54"
@@ -850,14 +895,17 @@
       "ariaActiveDescendantElement": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaactivedescendantelement",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -875,7 +923,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -961,6 +1009,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/ariaBrailleLabel",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariabraillelabel",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "107"
@@ -996,6 +1047,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/ariaBrailleRoleDescription",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariabrailleroledescription",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "107"
@@ -1183,6 +1237,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/ariaColIndexText",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacolindextext",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "128"
@@ -1255,14 +1312,17 @@
       "ariaControlsElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacontrolselements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1280,7 +1340,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1327,14 +1387,17 @@
       "ariaDescribedByElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadescribedbyelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1352,7 +1415,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1362,6 +1425,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/ariaDescription",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadescription",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "83"
@@ -1396,14 +1462,17 @@
       "ariaDetailsElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadetailselements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1421,7 +1490,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1468,14 +1537,17 @@
       "ariaErrorMessageElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaerrormessageelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1493,7 +1565,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1540,14 +1612,17 @@
       "ariaFlowToElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaflowtoelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1565,7 +1640,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1763,14 +1838,17 @@
       "ariaLabelledByElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-arialabelledbyelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "135"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1788,7 +1866,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -2025,6 +2103,9 @@
       "ariaOwnsElements": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaownselements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -2032,7 +2113,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "136"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2050,7 +2131,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -2401,6 +2482,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/ariaRowIndexText",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariarowindextext",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "128"
@@ -2813,9 +2897,12 @@
         },
         "options_clonable_parameter": {
           "__compat": {
-            "description": "<code>options.clonable</code> parameter",
+            "description": "`options.clonable` parameter",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable",
             "spec_url": "https://dom.spec.whatwg.org/#dom-shadowrootinit-clonable",
+            "tags": [
+              "web-features:shadow-dom"
+            ],
             "support": {
               "chrome": {
                 "version_added": "124"
@@ -2855,9 +2942,12 @@
         },
         "options_delegatesFocus_parameter": {
           "__compat": {
-            "description": "<code>options.delegatesFocus</code> parameter",
+            "description": "`options.delegatesFocus` parameter",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow#delegatesfocus",
             "spec_url": "https://dom.spec.whatwg.org/#dom-shadowrootinit-delegatesfocus",
+            "tags": [
+              "web-features:shadow-dom"
+            ],
             "support": {
               "chrome": {
                 "version_added": "53"
@@ -2891,9 +2981,12 @@
         },
         "options_serializable_parameter": {
           "__compat": {
-            "description": "<code>options.serializable</code> parameter",
+            "description": "`options.serializable` parameter",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow#serializable",
             "spec_url": "https://dom.spec.whatwg.org/#dom-shadowrootinit-serializable",
+            "tags": [
+              "web-features:shadow-dom"
+            ],
             "support": {
               "chrome": {
                 "version_added": "125"
@@ -2930,6 +3023,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/attributes",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-attributes",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -2969,11 +3065,14 @@
       },
       "auxclick_event": {
         "__compat": {
-          "description": "<code>auxclick</code> event",
+          "description": "`auxclick` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/auxclick_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-auxclick",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onauxclick"
+          ],
+          "tags": [
+            "web-features:mouse-events"
           ],
           "support": {
             "chrome": {
@@ -2983,7 +3082,7 @@
             "edge": "mirror",
             "firefox": {
               "version_added": "53",
-              "notes": "Starting in Firefox 68, the <code>auxclick</code> event is used to trigger the <em>new tab on middle-click</em> action; previously, this had been done with the <code>click</code> event. Apps can prevent middle-click from opening new tabs (or middle-click to paste, if that feature is enabled) by intercepting <code>auxclick</code> on links, and <code>auxclick</code> event handlers can now open popups without triggering the popup blocker."
+              "notes": "Starting in Firefox 68, the `auxclick` event is used to trigger the _new tab on middle-click_ action; previously, this had been done with the `click` event. Apps can prevent middle-click from opening new tabs (or middle-click to paste, if that feature is enabled) by intercepting `auxclick` on links, and `auxclick` event handlers can now open popups without triggering the popup blocker."
             },
             "firefox_android": {
               "version_added": "53"
@@ -2995,7 +3094,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18.2"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -3010,7 +3109,10 @@
         },
         "type_pointerevent": {
           "__compat": {
-            "description": "Is a <code>PointerEvent</code>",
+            "description": "Is a `PointerEvent`",
+            "tags": [
+              "web-features:pointer-events-api"
+            ],
             "support": {
               "chrome": {
                 "version_added": "92"
@@ -3049,6 +3151,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/before",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-childnode-before①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "54"
@@ -3086,9 +3191,12 @@
       },
       "beforeinput_event": {
         "__compat": {
-          "description": "<code>beforeinput</code> event",
+          "description": "`beforeinput` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/beforeinput_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-beforeinput",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
@@ -3122,9 +3230,12 @@
       },
       "beforematch_event": {
         "__compat": {
-          "description": "<code>beforematch</code> event",
+          "description": "`beforematch` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/beforematch_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-beforematch",
+          "tags": [
+            "web-features:hidden-until-found"
+          ],
           "support": {
             "chrome": {
               "version_added": "102"
@@ -3158,7 +3269,7 @@
       },
       "beforescriptexecute_event": {
         "__compat": {
-          "description": "<code>beforescriptexecute</code> event",
+          "description": "`beforescriptexecute` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/beforescriptexecute_event",
           "support": {
             "chrome": {
@@ -3187,15 +3298,18 @@
           "status": {
             "experimental": false,
             "standard_track": false,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
       "beforexrselect_event": {
         "__compat": {
-          "description": "<code>beforexrselect</code> event",
+          "description": "`beforexrselect` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/beforexrselect_event",
           "spec_url": "https://immersive-web.github.io/dom-overlays/#onbeforexrselect",
+          "tags": [
+            "web-features:webxr-dom-overlays"
+          ],
           "support": {
             "chrome": {
               "version_added": "83"
@@ -3232,11 +3346,14 @@
       },
       "blur_event": {
         "__compat": {
-          "description": "<code>blur</code> event",
+          "description": "`blur` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/blur_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-blur",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
+          ],
+          "tags": [
+            "web-features:focus-events"
           ],
           "support": {
             "chrome": {
@@ -3253,7 +3370,7 @@
               {
                 "version_added": "6",
                 "version_removed": "24",
-                "notes": "The interface for this event is <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/FocusEvent'><code>FocusEvent</code></a>."
+                "notes": "The interface for this event is [`Event`](https://developer.mozilla.org/docs/Web/API/Event), not [`FocusEvent`](https://developer.mozilla.org/docs/Web/API/FocusEvent)."
               }
             ],
             "firefox_android": "mirror",
@@ -3321,7 +3438,7 @@
         },
         "options_checkOpacity_parameter": {
           "__compat": {
-            "description": "<code>options.checkOpacity</code> parameter",
+            "description": "`options.checkOpacity` parameter",
             "spec_url": "https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions",
             "tags": [
               "web-features:check-visibility"
@@ -3359,7 +3476,7 @@
         },
         "options_checkVisibilityCSS_parameter": {
           "__compat": {
-            "description": "<code>options.checkVisibilityCSS</code> parameter",
+            "description": "`options.checkVisibilityCSS` parameter",
             "spec_url": "https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions",
             "tags": [
               "web-features:check-visibility"
@@ -3397,7 +3514,7 @@
         },
         "options_contentVisibilityAuto_parameter": {
           "__compat": {
-            "description": "<code>options.contentVisibilityAuto</code> parameter",
+            "description": "`options.contentVisibilityAuto` parameter",
             "spec_url": "https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions",
             "tags": [
               "web-features:check-visibility"
@@ -3435,7 +3552,7 @@
         },
         "options_opacityProperty_parameter": {
           "__compat": {
-            "description": "<code>options.opacityProperty</code> parameter",
+            "description": "`options.opacityProperty` parameter",
             "spec_url": "https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions",
             "tags": [
               "web-features:check-visibility"
@@ -3473,7 +3590,7 @@
         },
         "options_visibilityProperty_parameter": {
           "__compat": {
-            "description": "<code>options.visibilityProperty</code> parameter",
+            "description": "`options.visibilityProperty` parameter",
             "spec_url": "https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions",
             "tags": [
               "web-features:check-visibility"
@@ -3514,6 +3631,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/childElementCount",
           "spec_url": "https://dom.spec.whatwg.org/#dom-parentnode-childelementcount",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -3559,6 +3679,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/children",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-children①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -3578,7 +3701,7 @@
               {
                 "version_added": "6",
                 "version_removed": "9",
-                "notes": "Also includes non-standard <code>HTMLCommentElement</code> nodes."
+                "notes": "Also includes non-standard `HTMLCommentElement` nodes."
               }
             ],
             "oculus": "mirror",
@@ -3609,6 +3732,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/classList",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-classlist①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": [
               {
@@ -3686,6 +3812,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/className",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-classname①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": [
               {
@@ -3695,7 +3824,7 @@
                 "version_added": "1",
                 "version_removed": "22",
                 "partial_implementation": true,
-                "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               }
             ],
             "chrome_android": "mirror",
@@ -3733,7 +3862,7 @@
       },
       "click_event": {
         "__compat": {
-          "description": "<code>click</code> event",
+          "description": "`click` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/click_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-click",
@@ -3752,7 +3881,7 @@
             },
             "firefox": {
               "version_added": "6",
-              "notes": "Beginning in Firefox 68, Firefox no longer incorrectly sends a <code>click</code> event for buttons other than the primary mouse button; previously, there were circumstances in which this would occur. One example: middle-clicking a link would send a <code>click</code> to the document's <code>&lt;html&gt;</code> element."
+              "notes": "Beginning in Firefox 68, Firefox no longer incorrectly sends a `click` event for buttons other than the primary mouse button; previously, there were circumstances in which this would occur. One example: middle-clicking a link would send a `click` to the document's `&lt;html&gt;` element."
             },
             "firefox_android": {
               "version_added": "6"
@@ -3785,7 +3914,10 @@
         },
         "type_pointerevent": {
           "__compat": {
-            "description": "Is a <code>PointerEvent</code>",
+            "description": "Is a `PointerEvent`",
+            "tags": [
+              "web-features:pointer-events-api"
+            ],
             "support": {
               "chrome": {
                 "version_added": "92"
@@ -3824,6 +3956,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/clientHeight",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-clientheight",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -3867,6 +4002,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/clientLeft",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-clientleft",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -3910,6 +4048,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/clientTop",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-clienttop",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -3953,6 +4094,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/clientWidth",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-clientwidth",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -3996,6 +4140,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/closest",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-closest①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "41"
@@ -4033,9 +4180,12 @@
       },
       "compositionend_event": {
         "__compat": {
-          "description": "<code>compositionend</code> event",
+          "description": "`compositionend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/compositionend_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-compositionend",
+          "tags": [
+            "web-features:composition-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "15"
@@ -4079,9 +4229,12 @@
       },
       "compositionstart_event": {
         "__compat": {
-          "description": "<code>compositionstart</code> event",
+          "description": "`compositionstart` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/compositionstart_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-compositionstart",
+          "tags": [
+            "web-features:composition-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "15"
@@ -4125,9 +4278,12 @@
       },
       "compositionupdate_event": {
         "__compat": {
-          "description": "<code>compositionupdate</code> event",
+          "description": "`compositionupdate` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/compositionupdate_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-compositionupdate",
+          "tags": [
+            "web-features:composition-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "18"
@@ -4169,6 +4325,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/computedStyleMap",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-element-computedstylemap",
+          "tags": [
+            "web-features:css-typed-om"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -4203,9 +4362,12 @@
       },
       "contentvisibilityautostatechange_event": {
         "__compat": {
-          "description": "<code>contentvisibilityautostatechange</code> event",
+          "description": "`contentvisibilityautostatechange` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/contentvisibilityautostatechange_event",
           "spec_url": "https://drafts.csswg.org/css-contain/#content-visibility-auto-state-change",
+          "tags": [
+            "web-features:content-visibility"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -4220,7 +4382,7 @@
                 "version_added": "124",
                 "version_removed": "130",
                 "partial_implementation": true,
-                "notes": "The <code>oncontentvisibilityautostatechange</code> event handler property is not supported."
+                "notes": "The `oncontentvisibilityautostatechange` event handler property is not supported."
               }
             ],
             "firefox_android": "mirror",
@@ -4231,7 +4393,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -4247,9 +4409,12 @@
       },
       "contextmenu_event": {
         "__compat": {
-          "description": "<code>contextmenu</code> event",
+          "description": "`contextmenu` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-contextmenu",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -4291,7 +4456,10 @@
         },
         "type_pointerevent": {
           "__compat": {
-            "description": "Is a <code>PointerEvent</code>",
+            "description": "Is a `PointerEvent`",
+            "tags": [
+              "web-features:pointer-events-api"
+            ],
             "support": {
               "chrome": {
                 "version_added": "92"
@@ -4328,7 +4496,7 @@
       },
       "copy_event": {
         "__compat": {
-          "description": "<code>copy</code> event",
+          "description": "`copy` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/copy_event",
           "spec_url": [
             "https://w3c.github.io/clipboard-apis/#clipboard-event-copy",
@@ -4351,7 +4519,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "Before Internet Explorer 9, this event is not supported via <code>addEventListener</code>; however, the event handler is supported since IE 5.5. The event can be listened to via <code>element.oncopy</code>."
+              "notes": "Before Internet Explorer 9, this event is not supported via `addEventListener`; however, the event handler is supported since IE 5.5. The event can be listened to via `element.oncopy`."
             },
             "oculus": "mirror",
             "opera": {
@@ -4381,6 +4549,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/currentCSSZoom",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-currentcsszoom",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "128"
@@ -4414,7 +4585,7 @@
       },
       "cut_event": {
         "__compat": {
-          "description": "<code>cut</code> event",
+          "description": "`cut` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/cut_event",
           "spec_url": [
             "https://w3c.github.io/clipboard-apis/#clipboard-event-cut",
@@ -4437,7 +4608,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "Before Internet Explorer 9, this event is not supported via <code>addEventListener</code>; however, the event handler is supported since IE 5.5. The event can be listened to via <code>element.oncopy</code>."
+              "notes": "Before Internet Explorer 9, this event is not supported via `addEventListener`; however, the event handler is supported since IE 5.5. The event can be listened to via `element.oncopy`."
             },
             "oculus": "mirror",
             "opera": {
@@ -4465,7 +4636,7 @@
       },
       "dblclick_event": {
         "__compat": {
-          "description": "<code>dblclick</code> event",
+          "description": "`dblclick` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/dblclick_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-dblclick",
@@ -4484,7 +4655,7 @@
             },
             "firefox": {
               "version_added": "6",
-              "notes": "Starting in Firefox 68, <code>dblclick</code> events are only sent for the primary mouse button, per the specification."
+              "notes": "Starting in Firefox 68, `dblclick` events are only sent for the primary mouse button, per the specification."
             },
             "firefox_android": {
               "version_added": "6"
@@ -4519,7 +4690,10 @@
       "elementTiming": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/elementTiming",
-          "spec_url": "https://wicg.github.io/element-timing/#dom-element-elementtiming",
+          "spec_url": "https://w3c.github.io/element-timing/#dom-element-elementtiming",
+          "tags": [
+            "web-features:element-timing"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -4555,6 +4729,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/firstElementChild",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-firstelementchild①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -4598,11 +4775,14 @@
       },
       "focus_event": {
         "__compat": {
-          "description": "<code>focus</code> event",
+          "description": "`focus` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/focus_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-focus",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
+          ],
+          "tags": [
+            "web-features:focus-events"
           ],
           "support": {
             "chrome": {
@@ -4620,7 +4800,7 @@
                 "version_added": "6",
                 "version_removed": "24",
                 "partial_implementation": true,
-                "notes": "The interface for this event is <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/FocusEvent'><code>FocusEvent</code></a>."
+                "notes": "The interface for this event is [`Event`](https://developer.mozilla.org/docs/Web/API/Event), not [`FocusEvent`](https://developer.mozilla.org/docs/Web/API/FocusEvent)."
               }
             ],
             "firefox_android": "mirror",
@@ -4651,25 +4831,28 @@
       },
       "focusin_event": {
         "__compat": {
-          "description": "<code>focusin</code> event",
+          "description": "`focusin` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/focusin_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-focusin",
+          "tags": [
+            "web-features:focus-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "1",
               "partial_implementation": true,
-              "notes": "The <code>onfocusin</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('focusin', function() {});</code>."
+              "notes": "The `onfocusin` event handler property is not supported. To listen to this event, use `element.addEventListener('focusin', function() {});`."
             },
             "chrome_android": "mirror",
             "edge": {
               "version_added": "12",
               "partial_implementation": true,
-              "notes": "The <code>onfocusin</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('focusin', function() {});</code>."
+              "notes": "The `onfocusin` event handler property is not supported. To listen to this event, use `element.addEventListener('focusin', function() {});`."
             },
             "firefox": {
               "version_added": "52",
               "partial_implementation": true,
-              "notes": "The <code>onfocusin</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('focusin', function() {});</code>."
+              "notes": "The `onfocusin` event handler property is not supported. To listen to this event, use `element.addEventListener('focusin', function() {});`."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -4701,25 +4884,28 @@
       },
       "focusout_event": {
         "__compat": {
-          "description": "<code>focusout</code> event",
+          "description": "`focusout` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/focusout_event",
           "spec_url": "https://w3c.github.io/uievents/#event-type-focusout",
+          "tags": [
+            "web-features:focus-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "1",
               "partial_implementation": true,
-              "notes": "The <code>onfocusout</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('focusout', function() {});</code>."
+              "notes": "The `onfocusout` event handler property is not supported. To listen to this event, use `element.addEventListener('focusout', function() {});`."
             },
             "chrome_android": "mirror",
             "edge": {
               "version_added": "12",
               "partial_implementation": true,
-              "notes": "The <code>onfocusout</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('focusout', function() {});</code>."
+              "notes": "The `onfocusout` event handler property is not supported. To listen to this event, use `element.addEventListener('focusout', function() {});`."
             },
             "firefox": {
               "version_added": "52",
               "partial_implementation": true,
-              "notes": "The <code>onfocusout</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('focusout', function() {});</code>."
+              "notes": "The `onfocusout` event handler property is not supported. To listen to this event, use `element.addEventListener('focusout', function() {});`."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -4751,7 +4937,7 @@
       },
       "fullscreenchange_event": {
         "__compat": {
-          "description": "<code>fullscreenchange</code> event",
+          "description": "`fullscreenchange` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/fullscreenchange_event",
           "spec_url": "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenchange",
           "tags": [
@@ -4869,7 +5055,7 @@
       },
       "fullscreenerror_event": {
         "__compat": {
-          "description": "<code>fullscreenerror</code> event",
+          "description": "`fullscreenerror` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/fullscreenerror_event",
           "spec_url": "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenerror",
           "tags": [
@@ -4987,7 +5173,7 @@
       },
       "gesturechange_event": {
         "__compat": {
-          "description": "<code>gesturechange</code> event",
+          "description": "`gesturechange` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/gesturechange_event",
           "support": {
             "chrome": {
@@ -5024,7 +5210,7 @@
       },
       "gestureend_event": {
         "__compat": {
-          "description": "<code>gestureend</code> event",
+          "description": "`gestureend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/gestureend_event",
           "support": {
             "chrome": {
@@ -5061,7 +5247,7 @@
       },
       "gesturestart_event": {
         "__compat": {
-          "description": "<code>gesturestart</code> event",
+          "description": "`gesturestart` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/gesturestart_event",
           "support": {
             "chrome": {
@@ -5100,6 +5286,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getAnimations",
           "spec_url": "https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations",
+          "tags": [
+            "web-features:web-animations"
+          ],
           "support": {
             "chrome": {
               "version_added": "84"
@@ -5135,6 +5324,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getAttribute",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-getattribute①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5176,6 +5368,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNames",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-getattributenames①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "61"
@@ -5213,6 +5408,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNode",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-getattributenode",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5254,6 +5452,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNodeNS",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-getattributenodens",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5295,6 +5496,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNS",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-getattributens①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5305,7 +5509,7 @@
             },
             "firefox": {
               "version_added": "1",
-              "notes": "Starting in Firefox 13, <code>null</code> is always returned instead of the empty string, as per the DOM4 specification. Previously, there were cases in which an empty string could be returned."
+              "notes": "Starting in Firefox 13, `null` is always returned instead of the empty string, as per the DOM4 specification. Previously, there were cases in which an empty string could be returned."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -5337,6 +5541,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getBoundingClientRect",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-getboundingclientrect",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -5382,6 +5589,9 @@
       "getBoxQuads": {
         "__compat": {
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-geometryutils-getboxquads",
+          "tags": [
+            "web-features:getboxquads"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -5424,6 +5634,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getClientRects",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-getclientrects",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -5467,6 +5680,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByClassName",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-getelementsbyclassname",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5480,12 +5696,12 @@
                 "version_added": "12",
                 "version_removed": "16",
                 "partial_implementation": true,
-                "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               }
             ],
             "firefox": {
               "version_added": "3",
-              "notes": "Before Firefox 19, this method was returning a <code>NodeList</code>; it was then changed to reflect the change in the spec."
+              "notes": "Before Firefox 19, this method was returning a `NodeList`; it was then changed to reflect the change in the spec."
             },
             "firefox_android": {
               "version_added": "4"
@@ -5493,7 +5709,7 @@
             "ie": {
               "version_added": "9",
               "partial_implementation": true,
-              "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+              "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
             },
             "oculus": "mirror",
             "opera": {
@@ -5521,10 +5737,13 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByTagName",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "chrome_android": "mirror",
             "edge": {
@@ -5532,7 +5751,7 @@
             },
             "firefox": {
               "version_added": "1",
-              "notes": "Before Firefox 19, this method was returning a <code>NodeList</code>; it was then changed to reflect the change in the spec."
+              "notes": "Before Firefox 19, this method was returning a `NodeList`; it was then changed to reflect the change in the spec."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -5541,14 +5760,14 @@
             "oculus": "mirror",
             "opera": {
               "version_added": "8",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "opera_android": {
               "version_added": "10.1"
             },
             "safari": {
               "version_added": "1",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -5563,7 +5782,10 @@
         },
         "all_elements_selector": {
           "__compat": {
-            "description": "<code>getElementsByTagName(\"*\")</code>",
+            "description": "`getElementsByTagName(\"*\")`",
+            "tags": [
+              "web-features:dom"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -5606,10 +5828,13 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByTagNameNS",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "chrome_android": "mirror",
             "edge": {
@@ -5618,13 +5843,13 @@
             "firefox": {
               "version_added": "1",
               "notes": [
-                "The behavior of <code>element.getElementsByTagNameNS</code> changed between Firefox 3.5 and Firefox 3.6. In Firefox 3.5 and before, this function would automatically case-fold any queries so that a search for \"foo\" would match \"Foo\" or \"foo\". In Firefox 3.6 and later this function is now case-sensitive so that a query for \"foo\" will only match \"foo\" and not \"Foo\". For more background on this, please see the <a href='https://bugzil.la/542185#c5'>comment from Henri Sivonen about the change</a>. You can also look at the <a href='https://developer.mozilla.org/docs/Case_Sensitivity_in_class_and_id_Names'>relevant part of the standard, which states which parts of the API are case-sensitive and which parts aren't</a>.",
-                "Before Firefox 19, this method was returning a <code>NodeList</code>; it was then changed to reflects the spec change."
+                "The behavior of `element.getElementsByTagNameNS` changed between Firefox 3.5 and Firefox 3.6. In Firefox 3.5 and before, this function would automatically case-fold any queries so that a search for \"foo\" would match \"Foo\" or \"foo\". In Firefox 3.6 and later this function is now case-sensitive so that a query for \"foo\" will only match \"foo\" and not \"Foo\". For more background on this, please see the [comment from Henri Sivonen about the change](https://bugzil.la/542185#c5). You can also look at the [relevant part of the standard, which states which parts of the API are case-sensitive and which parts aren't](https://developer.mozilla.org/docs/Case_Sensitivity_in_class_and_id_Names).",
+                "Before Firefox 19, this method was returning a `NodeList`; it was then changed to reflects the spec change."
               ]
             },
             "firefox_android": {
               "version_added": "4",
-              "notes": "Before Firefox 19, this method was returning a <code>NodeList</code>; it was then changed to reflects the spec change."
+              "notes": "Before Firefox 19, this method was returning a `NodeList`; it was then changed to reflects the spec change."
             },
             "ie": {
               "version_added": "9"
@@ -5632,15 +5857,15 @@
             "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "opera_android": {
               "version_added": "≤12.1",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "safari": {
               "version_added": "1",
-              "notes": "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+              "notes": "Initially, this method was returning a `NodeList`; it was then changed to reflect the spec change."
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -5655,7 +5880,10 @@
         },
         "all_elements_selector": {
           "__compat": {
-            "description": "<code>getElementsByTagNameNS(namespaceURI, \"*\")</code>",
+            "description": "`getElementsByTagNameNS(namespaceURI, \"*\")`",
+            "tags": [
+              "web-features:dom"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -5698,6 +5926,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/getHTML",
           "spec_url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-gethtml",
+          "tags": [
+            "web-features:gethtml"
+          ],
           "support": {
             "chrome": {
               "version_added": "125"
@@ -5731,11 +5962,14 @@
       },
       "gotpointercapture_event": {
         "__compat": {
-          "description": "<code>gotpointercapture</code> event",
+          "description": "`gotpointercapture` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/gotpointercapture_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-gotpointercapture-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-ongotpointercapture"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -5776,6 +6010,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/hasAttribute",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-hasattribute①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5817,6 +6054,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/hasAttributeNS",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-hasattributens①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5858,6 +6098,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/hasAttributes",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-hasattributes①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -5868,7 +6111,7 @@
             },
             "firefox": {
               "version_added": "1",
-              "notes": "Before Firefox 35, it was implemented on the <code>Node</code> interface."
+              "notes": "Before Firefox 35, it was implemented on the `Node` interface."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -5900,6 +6143,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/hasPointerCapture",
           "spec_url": "https://w3c.github.io/pointerevents/#dom-element-haspointercapture",
+          "tags": [
+            "web-features:pointer-events-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "55"
@@ -5937,6 +6183,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/id",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-id①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": [
               {
@@ -5946,7 +6195,7 @@
                 "version_added": "1",
                 "version_removed": "23",
                 "partial_implementation": true,
-                "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               }
             ],
             "chrome_android": "mirror",
@@ -5986,6 +6235,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/innerHTML",
           "spec_url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-innerhtml",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -6023,11 +6275,56 @@
             "standard_track": true,
             "deprecated": false
           }
+        },
+        "accepts_TrustedHTML": {
+          "__compat": {
+            "description": "Can be set with a `TrustedHTML` instance",
+            "spec_url": "https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks",
+            "tags": [
+              "web-features:trusted-types"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "83"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "135",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.security.trusted_types.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "preview"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
         }
       },
       "input_event": {
         "__compat": {
-          "description": "<code>input</code> event",
+          "description": "`input` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/input_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-input",
@@ -6049,7 +6346,7 @@
                 "version_added": "12",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "Not supported on <code>select</code>, <code>checkbox</code>, or <code>radio</code> inputs."
+                "notes": "Not supported on `select`, `checkbox`, or `radio` inputs."
               }
             ],
             "firefox": {
@@ -6059,7 +6356,7 @@
             "ie": {
               "version_added": "9",
               "partial_implementation": true,
-              "notes": "Only supports <code>input</code> of type <code>text</code> and <code>password</code>."
+              "notes": "Only supports `input` of type `text` and `password`."
             },
             "oculus": "mirror",
             "opera": {
@@ -6087,6 +6384,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentElement",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-insertadjacentelement",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -6100,7 +6400,7 @@
                 "version_added": "12",
                 "version_removed": "17",
                 "partial_implementation": true,
-                "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               }
             ],
             "firefox": {
@@ -6110,7 +6410,7 @@
             "ie": {
               "version_added": "5",
               "partial_implementation": true,
-              "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+              "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
             },
             "oculus": "mirror",
             "opera": {
@@ -6140,6 +6440,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentHTML",
           "spec_url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#the-insertadjacenthtml()-method",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -6153,7 +6456,7 @@
                 "version_added": "12",
                 "version_removed": "17",
                 "partial_implementation": true,
-                "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               }
             ],
             "firefox": {
@@ -6164,8 +6467,8 @@
               "version_added": "4",
               "partial_implementation": true,
               "notes": [
-                "Before Internet Explorer 10, throws an \"Invalid target element for this operation.\" error when called on a <code>&lt;table&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;thead&gt;</code>, or <code>&lt;tr&gt;</code> element.",
-                "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "Before Internet Explorer 10, throws an \"Invalid target element for this operation.\" error when called on a `&lt;table&gt;`, `&lt;tbody&gt;`, `&lt;thead&gt;`, or `&lt;tr&gt;` element.",
+                "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               ]
             },
             "oculus": "mirror",
@@ -6198,6 +6501,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentText",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-insertadjacenttext",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -6211,7 +6517,7 @@
                 "version_added": "12",
                 "version_removed": "17",
                 "partial_implementation": true,
-                "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+                "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
               }
             ],
             "firefox": {
@@ -6221,7 +6527,7 @@
             "ie": {
               "version_added": "5",
               "partial_implementation": true,
-              "notes": "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>."
+              "notes": "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement)."
             },
             "oculus": "mirror",
             "opera": {
@@ -6251,11 +6557,14 @@
       },
       "keydown_event": {
         "__compat": {
-          "description": "<code>keydown</code> event",
+          "description": "`keydown` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/keydown_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-keydown",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeydown"
+          ],
+          "tags": [
+            "web-features:keyboard-events"
           ],
           "support": {
             "chrome": {
@@ -6296,7 +6605,7 @@
       },
       "keypress_event": {
         "__compat": {
-          "description": "<code>keypress</code> event",
+          "description": "`keypress` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/keypress_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-keypress",
@@ -6305,7 +6614,7 @@
           "support": {
             "chrome": {
               "version_added": "1",
-              "notes": "Chrome does not fire the <code>keypress</code> event for <a href='https://crbug.com/13891#c50'>known keyboard shortcuts</a>. Which keyboard shortcuts are known depends on the user's system. Use the <code>keydown</code> event to implement keyboard shortcuts."
+              "notes": "Chrome does not fire the `keypress` event for [known keyboard shortcuts](https://crbug.com/40879837#comment51). Which keyboard shortcuts are known depends on the user's system. Use the `keydown` event to implement keyboard shortcuts."
             },
             "chrome_android": "mirror",
             "edge": {
@@ -6313,7 +6622,7 @@
             },
             "firefox": {
               "version_added": "6",
-              "notes": "As of Firefox 65, the <code>keypress</code> event is no longer fired for <a href='https://developer.mozilla.org/docs/Web/API/KeyboardEvent/keyCode#Non-printable_keys_(function_keys)'>non-printable keys</a>, except for the Enter key, and the Shift + Enter and Ctrl + Enter key combinations (these were kept for cross-browser compatibility purposes)."
+              "notes": "As of Firefox 65, the `keypress` event is no longer fired for [non-printable keys](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/keyCode#Non-printable_keys_(function_keys)), except for the Enter key, and the Shift + Enter and Ctrl + Enter key combinations (these were kept for cross-browser compatibility purposes)."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -6322,11 +6631,11 @@
             "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1",
-              "notes": "Opera does not fire the <code>keypress</code> event for <a href='https://crbug.com/13891#c50'>known keyboard shortcuts</a>. Which keyboard shortcuts are known depends on the user's system. Use the <code>keydown</code> event to implement keyboard shortcuts."
+              "notes": "Opera does not fire the `keypress` event for [known keyboard shortcuts](https://crbug.com/40879837#comment51). Which keyboard shortcuts are known depends on the user's system. Use the `keydown` event to implement keyboard shortcuts."
             },
             "opera_android": {
               "version_added": "≤12.1",
-              "notes": "Opera does not fire the <code>keypress</code> event for <a href='https://crbug.com/13891#c50'>known keyboard shortcuts</a>. Which keyboard shortcuts are known depends on the user's system. Use the <code>keydown</code> event to implement keyboard shortcuts."
+              "notes": "Opera does not fire the `keypress` event for [known keyboard shortcuts](https://crbug.com/40879837#comment51). Which keyboard shortcuts are known depends on the user's system. Use the `keydown` event to implement keyboard shortcuts."
             },
             "safari": {
               "version_added": "1.3"
@@ -6335,7 +6644,7 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "1",
-              "notes": "Chrome does not fire the <code>keypress</code> event for <a href='https://crbug.com/13891#c50'>known keyboard shortcuts</a>. Which keyboard shortcuts are known depends on the user's system. Use the <code>keydown</code> event to implement keyboard shortcuts."
+              "notes": "Chrome does not fire the `keypress` event for [known keyboard shortcuts](https://crbug.com/40879837#comment51). Which keyboard shortcuts are known depends on the user's system. Use the `keydown` event to implement keyboard shortcuts."
             },
             "webview_ios": "mirror"
           },
@@ -6348,11 +6657,14 @@
       },
       "keyup_event": {
         "__compat": {
-          "description": "<code>keyup</code> event",
+          "description": "`keyup` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/keyup_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-keyup",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeyup"
+          ],
+          "tags": [
+            "web-features:keyboard-events"
           ],
           "support": {
             "chrome": {
@@ -6395,6 +6707,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/lastElementChild",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-lastelementchild①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -6440,6 +6755,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/localName",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-localname①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -6479,11 +6797,14 @@
       },
       "lostpointercapture_event": {
         "__compat": {
-          "description": "<code>lostpointercapture</code> event",
+          "description": "`lostpointercapture` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/lostpointercapture_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-lostpointercapture-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onlostpointercapture"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -6524,6 +6845,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/matches",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-matches①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": [
               {
@@ -6562,7 +6886,7 @@
                 "version_added": "3.6",
                 "notes": [
                   "Before Firefox 4, invalid selector strings caused false to be returned instead of throwing an exception.",
-                  "See <a href='https://bugzil.la/1119718'>bug 1119718</a> for removal."
+                  "See [bug 1119718](https://bugzil.la/1119718) for removal."
                 ]
               }
             ],
@@ -6577,7 +6901,7 @@
               {
                 "alternative_name": "mozMatchesSelector",
                 "version_added": "4",
-                "notes": "See <a href='https://bugzil.la/1119718'>bug 1119718</a> for removal."
+                "notes": "See [bug 1119718](https://bugzil.la/1119718) for removal."
               }
             ],
             "ie": {
@@ -6644,7 +6968,7 @@
       },
       "mousedown_event": {
         "__compat": {
-          "description": "<code>mousedown</code> event",
+          "description": "`mousedown` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mousedown_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mousedown",
@@ -6694,7 +7018,7 @@
       },
       "mouseenter_event": {
         "__compat": {
-          "description": "<code>mouseenter</code> event",
+          "description": "`mouseenter` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mouseenter_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mouseenter",
@@ -6740,7 +7064,7 @@
       },
       "mouseleave_event": {
         "__compat": {
-          "description": "<code>mouseleave</code> event",
+          "description": "`mouseleave` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mouseleave_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mouseleave",
@@ -6786,7 +7110,7 @@
       },
       "mousemove_event": {
         "__compat": {
-          "description": "<code>mousemove</code> event",
+          "description": "`mousemove` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mousemove_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mousemove",
@@ -6836,7 +7160,7 @@
       },
       "mouseout_event": {
         "__compat": {
-          "description": "<code>mouseout</code> event",
+          "description": "`mouseout` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mouseout_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mouseout",
@@ -6886,7 +7210,7 @@
       },
       "mouseover_event": {
         "__compat": {
-          "description": "<code>mouseover</code> event",
+          "description": "`mouseover` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mouseover_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mouseover",
@@ -6936,7 +7260,7 @@
       },
       "mouseup_event": {
         "__compat": {
-          "description": "<code>mouseup</code> event",
+          "description": "`mouseup` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mouseup_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-mouseup",
@@ -6986,7 +7310,7 @@
       },
       "mousewheel_event": {
         "__compat": {
-          "description": "<code>mousewheel</code> event",
+          "description": "`mousewheel` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/mousewheel_event",
           "support": {
             "chrome": {
@@ -7027,10 +7351,49 @@
           }
         }
       },
+      "moveBefore": {
+        "__compat": {
+          "tags": [
+            "web-features:move-before"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "133"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "namespaceURI": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/namespaceURI",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-namespaceuri①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -7072,6 +7435,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/nextElementSibling",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-nondocumenttypechildnode-nextelementsibling②",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -7117,6 +7483,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/outerHTML",
           "spec_url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-outerhtml",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -7160,6 +7529,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/part",
           "spec_url": "https://drafts.csswg.org/css-shadow-parts/#idl",
+          "tags": [
+            "web-features:shadow-parts"
+          ],
           "support": {
             "chrome": {
               "version_added": "73"
@@ -7193,7 +7565,7 @@
       },
       "paste_event": {
         "__compat": {
-          "description": "<code>paste</code> event",
+          "description": "`paste` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/paste_event",
           "spec_url": [
             "https://w3c.github.io/clipboard-apis/#clipboard-event-paste",
@@ -7217,8 +7589,8 @@
             "ie": {
               "version_added": "9",
               "notes": [
-                "Before Internet Explorer 11, copying files does not trigger the <code>paste</code> event.",
-                "Before Internet Explorer 9, this event is not supported via <code>addEventListener</code>; however, the event handler is supported since IE 5.5. The event can be listened to via <code>element.oncopy</code>."
+                "Before Internet Explorer 11, copying files does not trigger the `paste` event.",
+                "Before Internet Explorer 9, this event is not supported via `addEventListener`; however, the event handler is supported since IE 5.5. The event can be listened to via `element.oncopy`."
               ]
             },
             "oculus": "mirror",
@@ -7249,11 +7621,14 @@
       },
       "pointercancel_event": {
         "__compat": {
-          "description": "<code>pointercancel</code> event",
+          "description": "`pointercancel` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointercancel_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointercancel-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointercancel"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7305,11 +7680,14 @@
       },
       "pointerdown_event": {
         "__compat": {
-          "description": "<code>pointerdown</code> event",
+          "description": "`pointerdown` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerdown_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerdown-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerdown"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7361,11 +7739,14 @@
       },
       "pointerenter_event": {
         "__compat": {
-          "description": "<code>pointerenter</code> event",
+          "description": "`pointerenter` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerenter_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerenter-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerenter"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7417,11 +7798,14 @@
       },
       "pointerleave_event": {
         "__compat": {
-          "description": "<code>pointerleave</code> event",
+          "description": "`pointerleave` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerleave_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerleave-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerleave"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7473,11 +7857,14 @@
       },
       "pointermove_event": {
         "__compat": {
-          "description": "<code>pointermove</code> event",
+          "description": "`pointermove` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointermove_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointermove-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointermove"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7529,11 +7916,14 @@
       },
       "pointerout_event": {
         "__compat": {
-          "description": "<code>pointerout</code> event",
+          "description": "`pointerout` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerout_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerout-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerout"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7585,11 +7975,14 @@
       },
       "pointerover_event": {
         "__compat": {
-          "description": "<code>pointerover</code> event",
+          "description": "`pointerover` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerover_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerover-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerover"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7641,11 +8034,14 @@
       },
       "pointerrawupdate_event": {
         "__compat": {
-          "description": "<code>pointerrawupdate</code> event",
+          "description": "`pointerrawupdate` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerrawupdate_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerrawupdate-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerrawupdate"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7680,11 +8076,14 @@
       },
       "pointerup_event": {
         "__compat": {
-          "description": "<code>pointerup</code> event",
+          "description": "`pointerup` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/pointerup_event",
           "spec_url": [
             "https://w3c.github.io/pointerevents/#the-pointerup-event",
             "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerup"
+          ],
+          "tags": [
+            "web-features:pointer-events-api"
           ],
           "support": {
             "chrome": {
@@ -7738,6 +8137,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/prefix",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-prefix①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -7779,6 +8181,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/prepend",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-prepend①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "54"
@@ -7816,6 +8221,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/previousElementSibling",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-nondocumenttypechildnode-previouselementsibling②",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "2"
@@ -7861,6 +8269,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/querySelector",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -7880,7 +8291,7 @@
               {
                 "version_added": "8",
                 "partial_implementation": true,
-                "notes": "<code>querySelector()</code> is supported, but only for CSS 2.1 selectors."
+                "notes": "`querySelector()` is supported, but only for CSS 2.1 selectors."
               }
             ],
             "oculus": "mirror",
@@ -7909,6 +8320,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/querySelectorAll",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -7928,7 +8342,7 @@
               {
                 "version_added": "8",
                 "partial_implementation": true,
-                "notes": "<code>querySelectorAll()</code> is supported, but only for CSS 2.1 selectors."
+                "notes": "`querySelectorAll()` is supported, but only for CSS 2.1 selectors."
               }
             ],
             "oculus": "mirror",
@@ -7957,6 +8371,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/releasePointerCapture",
           "spec_url": "https://w3c.github.io/pointerevents/#dom-element-releasepointercapture",
+          "tags": [
+            "web-features:pointer-events-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "55"
@@ -8002,6 +8419,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/remove",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-childnode-remove①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "24"
@@ -8039,6 +8459,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/removeAttribute",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-removeattribute①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -8046,7 +8469,7 @@
             "chrome_android": "mirror",
             "edge": {
               "version_added": "12",
-              "notes": "This function doesn't respect boolean attributes' default values. See <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12087679/'>bug 12087679</a>."
+              "notes": "This function doesn't respect boolean attributes' default values. See [bug 12087679](https://developer.microsoft.com/microsoft-edge/platform/issues/12087679/)."
             },
             "firefox": {
               "version_added": "1"
@@ -8081,6 +8504,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/removeAttributeNode",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-removeattributenode",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -8122,6 +8548,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/removeAttributeNS",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-removeattributens①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -8163,6 +8592,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/replaceChildren",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-replacechildren①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
@@ -8198,6 +8630,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/replaceWith",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-childnode-replacewith①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "54"
@@ -8271,19 +8706,10 @@
               {
                 "alternative_name": "mozRequestFullScreen",
                 "version_added": "9",
-                "notes": "Before Firefox 44, Firefox incorrectly allowed elements inside a <code>&lt;frame&gt;</code> or <code>&lt;object&gt;</code> element to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an <code>&lt;iframe&gt;</code> element with the <code>allowfullscreen</code> attribute can be displayed fullscreen."
+                "notes": "Before Firefox 44, Firefox incorrectly allowed elements inside a `&lt;frame&gt;` or `&lt;object&gt;` element to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an `&lt;iframe&gt;` element with the `allowfullscreen` attribute can be displayed fullscreen."
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "64"
-              },
-              {
-                "alternative_name": "mozRequestFullScreen",
-                "version_added": "9",
-                "notes": "Before Firefox 44, Firefox incorrectly allowed elements inside a <code>&lt;frame&gt;</code> or an <code>&lt;object&gt;</code> to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an <code><code>&lt;iframe&gt;</code></code> with the <code>allowfullscreen</code> attribute can be displayed fullscreen."
-              }
-            ],
+            "firefox_android": "mirror",
             "ie": {
               "prefix": "ms",
               "version_added": "11"
@@ -8362,8 +8788,11 @@
         },
         "options_navigationUI_parameter": {
           "__compat": {
-            "description": "<code>options.navigationUI</code> parameter",
+            "description": "`options.navigationUI` parameter",
             "spec_url": "https://fullscreen.spec.whatwg.org/#dom-fullscreenoptions-navigationui",
+            "tags": [
+              "web-features:fullscreen"
+            ],
             "support": {
               "chrome": {
                 "version_added": "71"
@@ -8399,8 +8828,11 @@
         },
         "options_screen_parameter": {
           "__compat": {
-            "description": "<code>options.screen</code> parameter",
+            "description": "`options.screen` parameter",
             "spec_url": "https://w3c.github.io/window-management/#ref-for-dom-fullscreenoptions-screen",
+            "tags": [
+              "web-features:window-management"
+            ],
             "support": {
               "chrome": {
                 "version_added": "100"
@@ -8436,7 +8868,7 @@
         },
         "returns_promise": {
           "__compat": {
-            "description": "Returns a <code>Promise</code>",
+            "description": "Returns a `Promise`",
             "tags": [
               "web-features:fullscreen"
             ],
@@ -8485,7 +8917,7 @@
             "chrome": [
               {
                 "version_added": "37",
-                "notes": "From version 92, returns a promise instead of <code>undefined</code>. The behavior reflects <a href='https://github.com/w3c/pointerlock/pull/49'>a proposed specification change</a>."
+                "notes": "From version 92, returns a promise instead of `undefined`. The behavior reflects [a proposed specification change](https://github.com/w3c/pointerlock/pull/49)."
               },
               {
                 "prefix": "webkit",
@@ -8496,7 +8928,7 @@
             "chrome_android": "mirror",
             "edge": {
               "version_added": "13",
-              "notes": "From version 92, returns a promise instead of <code>undefined</code>. The behavior reflects <a href='https://github.com/w3c/pointerlock/pull/49'>a proposed specification change</a>."
+              "notes": "From version 92, returns a promise instead of `undefined`. The behavior reflects [a proposed specification change](https://github.com/w3c/pointerlock/pull/49)."
             },
             "firefox": [
               {
@@ -8524,7 +8956,7 @@
             "samsunginternet_android": [
               {
                 "version_added": "3.0",
-                "notes": "From version 16, returns a promise instead of <code>undefined</code>. The behavior reflects <a href='https://github.com/w3c/pointerlock/pull/49'>a proposed specification change</a>."
+                "notes": "From version 16, returns a promise instead of `undefined`. The behavior reflects [a proposed specification change](https://github.com/w3c/pointerlock/pull/49)."
               },
               {
                 "prefix": "webkit",
@@ -8543,7 +8975,7 @@
         },
         "options_unadjustedMovement_parameter": {
           "__compat": {
-            "description": "<code>options.unadjustedMovement</code> parameter",
+            "description": "`options.unadjustedMovement` parameter",
             "support": {
               "chrome": {
                 "version_added": "88",
@@ -8579,6 +9011,7 @@
       },
       "role": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/role",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-role",
           "tags": [
             "web-features:aria-attribute-reflection"
@@ -8618,6 +9051,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scroll",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scroll",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "61"
@@ -8650,7 +9086,10 @@
         },
         "options_behavior_parameter": {
           "__compat": {
-            "description": "<code>options.behavior</code> parameter",
+            "description": "`options.behavior` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -8684,7 +9123,10 @@
         },
         "options_left_parameter": {
           "__compat": {
-            "description": "<code>options.left</code> parameter",
+            "description": "`options.left` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -8718,7 +9160,10 @@
         },
         "options_top_parameter": {
           "__compat": {
-            "description": "<code>options.top</code> parameter",
+            "description": "`options.top` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -8753,11 +9198,14 @@
       },
       "scroll_event": {
         "__compat": {
-          "description": "<code>scroll</code> event",
+          "description": "`scroll` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scroll_event",
           "spec_url": [
             "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
+          ],
+          "tags": [
+            "web-features:scroll-elements"
           ],
           "support": {
             "chrome": {
@@ -8800,6 +9248,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollBy",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scrollby",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "61"
@@ -8832,7 +9283,10 @@
         },
         "options_behavior_parameter": {
           "__compat": {
-            "description": "<code>options.behavior</code> parameter",
+            "description": "`options.behavior` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -8866,7 +9320,10 @@
         },
         "options_left_parameter": {
           "__compat": {
-            "description": "<code>options.left</code> parameter",
+            "description": "`options.left` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -8900,7 +9357,10 @@
         },
         "options_top_parameter": {
           "__compat": {
-            "description": "<code>options.top</code> parameter",
+            "description": "`options.top` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -8935,7 +9395,7 @@
       },
       "scrollend_event": {
         "__compat": {
-          "description": "<code>scrollend</code> event",
+          "description": "`scrollend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollend_event",
           "spec_url": [
             "https://drafts.csswg.org/cssom-view/#eventdef-document-scrollend",
@@ -8980,6 +9440,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollHeight",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scrollheight",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -8996,13 +9459,13 @@
                 "version_added": "3",
                 "version_removed": "21",
                 "partial_implementation": true,
-                "notes": "Before Firefox 21, when an element's content does not generate a vertical scrollbar, then its <code>scrollHeight</code> property is equal to its <code>clientHeight</code> property. This can mean either the content is too short to require a scrollbar or that the element has a CSS style <code>overflow</code> value of <code>visible</code> (non-scrollable)."
+                "notes": "Before Firefox 21, when an element's content does not generate a vertical scrollbar, then its `scrollHeight` property is equal to its `clientHeight` property. This can mean either the content is too short to require a scrollbar or that the element has a CSS style `overflow` value of `visible` (non-scrollable)."
               }
             ],
             "firefox_android": "mirror",
             "ie": {
               "version_added": "5",
-              "notes": "In Internet Explorer 5 through 7, if padding is set, the value of <code>scrollHeight</code> is equal to the sum of the top and bottom padding. This behavior was fixed in Internet Explorer 8."
+              "notes": "In Internet Explorer 5 through 7, if padding is set, the value of `scrollHeight` is equal to the sum of the top and bottom padding. This behavior was fixed in Internet Explorer 8."
             },
             "oculus": "mirror",
             "opera": {
@@ -9046,15 +9509,15 @@
                 "version_added": "17",
                 "version_removed": "79",
                 "partial_implementation": true,
-                "notes": "The only parameter supported is <code>alignToTop</code>."
+                "notes": "The only parameter supported is `alignToTop`."
               },
               {
                 "version_added": "12",
                 "version_removed": "17",
                 "partial_implementation": true,
                 "notes": [
-                  "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>.",
-                  "No support for <code>smooth</code> behavior."
+                  "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement).",
+                  "No support for `smooth` behavior."
                 ]
               }
             ],
@@ -9066,8 +9529,8 @@
               "version_added": "5",
               "partial_implementation": true,
               "notes": [
-                "Only supported for <a href='https://developer.mozilla.org/docs/Web/API/HTMLElement'><code>HTMLElement</code></a>, not all <code>Element</code> objects, such as <a href='https://developer.mozilla.org/docs/Web/API/SVGElement'><code>SVGElement</code></a>.",
-                "No support for <code>smooth</code> behavior or <code>center</code> options."
+                "Only supported for [`HTMLElement`](https://developer.mozilla.org/docs/Web/API/HTMLElement), not all `Element` objects, such as [`SVGElement`](https://developer.mozilla.org/docs/Web/API/SVGElement).",
+                "No support for `smooth` behavior or `center` options."
               ]
             },
             "oculus": "mirror",
@@ -9080,15 +9543,15 @@
             "safari": {
               "version_added": "3",
               "notes": [
-                "No support for <code>center</code> option.",
-                "Before Safari 15.4, there was no support for the <code>smooth</code> behavior."
+                "No support for `center` option.",
+                "Before Safari 15.4, there was no support for the `smooth` behavior."
               ]
             },
             "safari_ios": {
               "version_added": "1",
               "notes": [
-                "No support for <code>center</code> option.",
-                "Before iOS 15.4, there was no support for the <code>smooth</code> behavior."
+                "No support for `center` option.",
+                "Before iOS 15.4, there was no support for the `smooth` behavior."
               ]
             },
             "samsunginternet_android": "mirror",
@@ -9103,22 +9566,22 @@
         },
         "options_parameter": {
           "__compat": {
-            "description": "<code>options</code> parameter",
+            "description": "`options` parameter",
             "tags": [
               "web-features:scroll-into-view"
             ],
             "support": {
               "chrome": {
                 "version_added": "61",
-                "notes": "The <code>block</code> and <code>inline</code> options support the values <code>start</code>, <code>center</code>, <code>end</code>, <code>nearest</code>."
+                "notes": "The `block` and `inline` options support the values `start`, `center`, `end`, `nearest`."
               },
               "chrome_android": "mirror",
               "edge": "mirror",
               "firefox": {
                 "version_added": "36",
                 "notes": [
-                  "No support for <code>inline</code> option.",
-                  "Before Firefox 58, <code>nearest</code> and <code>center</code> values for the <code>block</code> option was unsupported. See <a href='https://bugzil.la/1389274'>bug 1389274</a>."
+                  "No support for `inline` option.",
+                  "Before Firefox 58, `nearest` and `center` values for the `block` option was unsupported. See [bug 1389274](https://bugzil.la/1389274)."
                 ]
               },
               "firefox_android": "mirror",
@@ -9154,7 +9617,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/403510"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -9184,6 +9648,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollLeft",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scrollleft",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": [
               {
@@ -9192,7 +9659,7 @@
               {
                 "version_added": "1",
                 "version_removed": "86",
-                "notes": "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a href='https://crbug.com/721759'>bug 721759</a>."
+                "notes": "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See [bug 41319147](https://crbug.com/41319147)."
               }
             ],
             "chrome_android": "mirror",
@@ -9203,7 +9670,7 @@
               {
                 "version_added": "12",
                 "version_removed": "86",
-                "notes": "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a href='https://crbug.com/721759'>bug 721759</a>."
+                "notes": "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See [bug 41319147](https://crbug.com/41319147)."
               }
             ],
             "firefox": {
@@ -9272,9 +9739,12 @@
       },
       "scrollsnapchange_event": {
         "__compat": {
-          "description": "<code>scrollsnapchange</code> event",
+          "description": "`scrollsnapchange` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollsnapchange_event",
           "spec_url": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange",
+          "tags": [
+            "web-features:scroll-snap-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "129"
@@ -9282,7 +9752,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1843961"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -9308,9 +9779,12 @@
       },
       "scrollsnapchanging_event": {
         "__compat": {
-          "description": "<code>scrollsnapchanging</code> event",
+          "description": "`scrollsnapchanging` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollsnapchanging_event",
           "spec_url": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+          "tags": [
+            "web-features:scroll-snap-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "129"
@@ -9318,7 +9792,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1843961"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -9346,6 +9821,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollTo",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scrollto",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "61"
@@ -9378,7 +9856,10 @@
         },
         "options_behavior_parameter": {
           "__compat": {
-            "description": "<code>options.behavior</code> parameter",
+            "description": "`options.behavior` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -9412,7 +9893,10 @@
         },
         "options_left_parameter": {
           "__compat": {
-            "description": "<code>options.left</code> parameter",
+            "description": "`options.left` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -9446,7 +9930,10 @@
         },
         "options_top_parameter": {
           "__compat": {
-            "description": "<code>options.top</code> parameter",
+            "description": "`options.top` parameter",
+            "tags": [
+              "web-features:scroll-elements"
+            ],
             "support": {
               "chrome": {
                 "version_added": "61"
@@ -9483,6 +9970,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollTop",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scrolltop",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -9558,6 +10048,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/scrollWidth",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-element-scrollwidth",
+          "tags": [
+            "web-features:scroll-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -9572,7 +10065,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "5",
-              "notes": "In Internet Explorer 5 through 7, if padding is set, the value of <code>scrollWidth</code> is equal to the sum of the left and right padding. This behavior was fixed in Internet Explorer 8."
+              "notes": "In Internet Explorer 5 through 7, if padding is set, the value of `scrollWidth` is equal to the sum of the left and right padding. This behavior was fixed in Internet Explorer 8."
             },
             "oculus": "mirror",
             "opera": {
@@ -9598,11 +10091,14 @@
       },
       "securitypolicyviolation_event": {
         "__compat": {
-          "description": "<code>securitypolicyviolation</code> event",
+          "description": "`securitypolicyviolation` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/securitypolicyviolation_event",
           "spec_url": [
             "https://w3c.github.io/webappsec-csp/#eventdef-globaleventhandlers-securitypolicyviolation",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsecuritypolicyviolation"
+          ],
+          "tags": [
+            "web-features:csp"
           ],
           "support": {
             "chrome": {
@@ -9641,6 +10137,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/setAttribute",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-setattribute①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -9655,7 +10154,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "5",
-              "notes": "In Internet Explorer 7 and earlier, <code>setAttribute</code> doesn't set styles and removes events when you try to set them."
+              "notes": "In Internet Explorer 7 and earlier, `setAttribute` doesn't set styles and removes events when you try to set them."
             },
             "oculus": "mirror",
             "opera": {
@@ -9683,6 +10182,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNode",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-setattributenode",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -9724,6 +10226,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNodeNS",
           "spec_url": "https://dom.spec.whatwg.org/#dom-element-setattributenodens",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -9731,7 +10236,7 @@
             "chrome_android": "mirror",
             "edge": {
               "version_added": "12",
-              "notes": "Returns a <code>ClientRectList</code> with <a href='https://docs.microsoft.com/en-us/previous-versions/hh826029(v=vs.85)'><code>ClientRect</code></a> objects (which do not contain <code>x</code> and <code>y</code> properties) instead of <a href='https://developer.mozilla.org/docs/Web/API/DOMRect'><code>DOMRect</code></a> objects."
+              "notes": "Returns a `ClientRectList` with [`ClientRect`](https://docs.microsoft.com/en-us/previous-versions/hh826029(v=vs.85)) objects (which do not contain `x` and `y` properties) instead of [`DOMRect`](https://developer.mozilla.org/docs/Web/API/DOMRect) objects."
             },
             "firefox": {
               "version_added": "1"
@@ -9739,7 +10244,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "Returns a <code>ClientRectList</code> with <a href='https://docs.microsoft.com/en-us/previous-versions/hh826029(v=vs.85)'><code>ClientRect</code></a> objects (which do not contain <code>x</code> and <code>y</code> properties) instead of <a href='https://developer.mozilla.org/docs/Web/API/DOMRect'><code>DOMRect</code></a> objects."
+              "notes": "Returns a `ClientRectList` with [`ClientRect`](https://docs.microsoft.com/en-us/previous-versions/hh826029(v=vs.85)) objects (which do not contain `x` and `y` properties) instead of [`DOMRect`](https://developer.mozilla.org/docs/Web/API/DOMRect) objects."
             },
             "oculus": "mirror",
             "opera": {
@@ -9767,6 +10272,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNS",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-setattributens①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -9822,7 +10330,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "5",
-              "notes": "The <code>retargetToElement</code> parameter to <code>Element.setCapture()</code> was introduced in Internet Explorer 5.5."
+              "notes": "The `retargetToElement` parameter to `Element.setCapture()` was introduced in Internet Explorer 5.5."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -9884,6 +10392,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/setPointerCapture",
           "spec_url": "https://w3c.github.io/pointerevents/#dom-element-setpointercapture",
+          "tags": [
+            "web-features:pointer-events-api"
+          ],
           "support": {
             "chrome": {
               "version_added": "55"
@@ -9894,11 +10405,11 @@
             },
             "firefox": {
               "version_added": "59",
-              "notes": "Before Firefox 82, <code>setPointerCapture()</code> throws <code>InvalidPointerId</code> for an invalid <code>pointerId</code> argument. From Firefox 82, it throws <a href='https://w3c.github.io/pointerevents/#setting-pointer-capture'>the specified</a> <code>NotFoundError</code> exception. See <a href='https://bugzil.la/1662124'>bug 1662124</a>."
+              "notes": "Before Firefox 82, `setPointerCapture()` throws `InvalidPointerId` for an invalid `pointerId` argument. From Firefox 82, it throws [the specified](https://w3c.github.io/pointerevents/#setting-pointer-capture) `NotFoundError` exception. See [bug 1662124](https://bugzil.la/1662124)."
             },
             "firefox_android": {
               "version_added": "79",
-              "notes": "Before Firefox 82, <code>setPointerCapture()</code> throws <code>InvalidPointerId</code> for an invalid <code>pointerId</code> argument. From Firefox 82, it throws <a href='https://w3c.github.io/pointerevents/#setting-pointer-capture'>the specified</a> <code>NotFoundError</code> exception. See <a href='https://bugzil.la/1662124'>bug 1662124</a>."
+              "notes": "Before Firefox 82, `setPointerCapture()` throws `InvalidPointerId` for an invalid `pointerId` argument. From Firefox 82, it throws [the specified](https://w3c.github.io/pointerevents/#setting-pointer-capture) `NotFoundError` exception. See [bug 1662124](https://bugzil.la/1662124)."
             },
             "ie": [
               {
@@ -10007,6 +10518,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/tagName",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-tagname①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -10048,6 +10562,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/toggleAttribute",
           "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-element-toggleattribute①",
+          "tags": [
+            "web-features:dom"
+          ],
           "support": {
             "chrome": {
               "version_added": "69"
@@ -10083,11 +10600,14 @@
       },
       "touchcancel_event": {
         "__compat": {
-          "description": "<code>touchcancel</code> event",
+          "description": "`touchcancel` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/touchcancel_event",
           "spec_url": [
             "https://w3c.github.io/touch-events/#event-touchcancel",
             "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchcancel"
+          ],
+          "tags": [
+            "web-features:touch-events"
           ],
           "support": {
             "chrome": {
@@ -10130,11 +10650,14 @@
       },
       "touchend_event": {
         "__compat": {
-          "description": "<code>touchend</code> event",
+          "description": "`touchend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/touchend_event",
           "spec_url": [
             "https://w3c.github.io/touch-events/#event-touchend",
             "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchend"
+          ],
+          "tags": [
+            "web-features:touch-events"
           ],
           "support": {
             "chrome": {
@@ -10177,11 +10700,14 @@
       },
       "touchmove_event": {
         "__compat": {
-          "description": "<code>touchmove</code> event",
+          "description": "`touchmove` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/touchmove_event",
           "spec_url": [
             "https://w3c.github.io/touch-events/#event-touchmove",
             "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchmove"
+          ],
+          "tags": [
+            "web-features:touch-events"
           ],
           "support": {
             "chrome": {
@@ -10224,11 +10750,14 @@
       },
       "touchstart_event": {
         "__compat": {
-          "description": "<code>touchstart</code> event",
+          "description": "`touchstart` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/touchstart_event",
           "spec_url": [
             "https://w3c.github.io/touch-events/#event-touchstart",
             "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchstart"
+          ],
+          "tags": [
+            "web-features:touch-events"
           ],
           "support": {
             "chrome": {
@@ -10271,11 +10800,14 @@
       },
       "transitioncancel_event": {
         "__compat": {
-          "description": "<code>transitioncancel</code> event",
+          "description": "`transitioncancel` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/transitioncancel_event",
           "spec_url": [
             "https://drafts.csswg.org/css-transitions/#transitioncancel",
             "https://drafts.csswg.org/css-transitions/#dom-globaleventhandlers-ontransitioncancel"
+          ],
+          "tags": [
+            "web-features:transitions"
           ],
           "support": {
             "chrome": [
@@ -10286,7 +10818,7 @@
                 "version_added": "74",
                 "version_removed": "87",
                 "partial_implementation": true,
-                "notes": "The <code>ontransitioncancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('transitioncancel', function() {});</code>."
+                "notes": "The `ontransitioncancel` event handler property is not supported. To listen to this event, use `element.addEventListener('transitioncancel', function() {});`."
               }
             ],
             "chrome_android": "mirror",
@@ -10309,7 +10841,7 @@
                 "version_added": "12",
                 "version_removed": "13.1",
                 "partial_implementation": true,
-                "notes": "Although the <code>ontransitioncancel</code> event handler property is supported, the <code>transitioncancel</code> event is never fired."
+                "notes": "Although the `ontransitioncancel` event handler property is supported, the `transitioncancel` event is never fired."
               }
             ],
             "safari_ios": "mirror",
@@ -10326,9 +10858,12 @@
       },
       "transitionend_event": {
         "__compat": {
-          "description": "<code>transitionend</code> event",
+          "description": "`transitionend` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/transitionend_event",
           "spec_url": "https://drafts.csswg.org/css-transitions/#transitionend",
+          "tags": [
+            "web-features:transitions"
+          ],
           "support": {
             "chrome": [
               {
@@ -10352,7 +10887,7 @@
                 "version_added": "12",
                 "version_removed": "18",
                 "partial_implementation": true,
-                "notes": "The <code>ontransitionend</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('transitionend', function() {});</code>."
+                "notes": "The `ontransitionend` event handler property is not supported. To listen to this event, use `element.addEventListener('transitionend', function() {});`."
               }
             ],
             "firefox": {
@@ -10362,7 +10897,7 @@
             "ie": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>ontransitionend</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('transitionend', function() {});</code>."
+              "notes": "The `ontransitionend` event handler property is not supported. To listen to this event, use `element.addEventListener('transitionend', function() {});`."
             },
             "oculus": "mirror",
             "opera": [
@@ -10416,9 +10951,12 @@
       },
       "transitionrun_event": {
         "__compat": {
-          "description": "<code>transitionrun</code> event",
+          "description": "`transitionrun` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/transitionrun_event",
           "spec_url": "https://drafts.csswg.org/css-transitions/#transitionrun",
+          "tags": [
+            "web-features:transitions"
+          ],
           "support": {
             "chrome": {
               "version_added": "74"
@@ -10434,7 +10972,7 @@
             "ie": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>ontransitionrun</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('transitionrun', function() {});</code>."
+              "notes": "The `ontransitionrun` event handler property is not supported. To listen to this event, use `element.addEventListener('transitionrun', function() {});`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -10463,9 +11001,12 @@
       },
       "transitionstart_event": {
         "__compat": {
-          "description": "<code>transitionstart</code> event",
+          "description": "`transitionstart` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/transitionstart_event",
           "spec_url": "https://drafts.csswg.org/css-transitions/#transitionstart",
+          "tags": [
+            "web-features:transitions"
+          ],
           "support": {
             "chrome": {
               "version_added": "74"
@@ -10481,7 +11022,7 @@
             "ie": {
               "version_added": "10",
               "partial_implementation": true,
-              "notes": "The <code>ontransitionstart</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('transitionstart', function() {});</code>."
+              "notes": "The `ontransitionstart` event handler property is not supported. To listen to this event, use `element.addEventListener('transitionstart', function() {});`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -10510,7 +11051,7 @@
       },
       "webkitmouseforcechanged_event": {
         "__compat": {
-          "description": "<code>webkitmouseforcechanged</code> event",
+          "description": "`webkitmouseforcechanged` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/webkitmouseforcechanged_event",
           "support": {
             "chrome": {
@@ -10547,7 +11088,7 @@
       },
       "webkitmouseforcedown_event": {
         "__compat": {
-          "description": "<code>webkitmouseforcedown</code> event",
+          "description": "`webkitmouseforcedown` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/webkitmouseforcedown_event",
           "support": {
             "chrome": {
@@ -10584,7 +11125,7 @@
       },
       "webkitmouseforceup_event": {
         "__compat": {
-          "description": "<code>webkitmouseforceup</code> event",
+          "description": "`webkitmouseforceup` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/webkitmouseforceup_event",
           "support": {
             "chrome": {
@@ -10621,7 +11162,7 @@
       },
       "webkitmouseforcewillbegin_event": {
         "__compat": {
-          "description": "<code>webkitmouseforcewillbegin</code> event",
+          "description": "`webkitmouseforcewillbegin` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/webkitmouseforcewillbegin_event",
           "support": {
             "chrome": {
@@ -10658,11 +11199,14 @@
       },
       "wheel_event": {
         "__compat": {
-          "description": "<code>wheel</code> event",
+          "description": "`wheel` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/wheel_event",
           "spec_url": [
             "https://w3c.github.io/uievents/#event-type-wheel",
             "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onwheel"
+          ],
+          "tags": [
+            "web-features:wheel-events"
           ],
           "support": {
             "chrome": {
@@ -10678,7 +11222,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "The <code>onwheel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('wheel', function() {});</code>. See <a href='https://connect.microsoft.com/IE/feedback/details/782835/missing-onwheel-attribute-for-the-wheel-event-although-its-supported-via-addeventlistener'>IE bug 782835</a>."
+              "notes": "The `onwheel` event handler property is not supported. To listen to this event, use `element.addEventListener('wheel', function() {});`. See [IE bug 782835](https://connect.microsoft.com/IE/feedback/details/782835/missing-onwheel-attribute-for-the-wheel-event-although-its-supported-via-addeventlistener)."
             },
             "oculus": "mirror",
             "opera": "mirror",

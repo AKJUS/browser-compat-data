@@ -11,6 +11,8 @@ import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import chalk from 'chalk-template';
 
+import dataFolders from '../scripts/lib/data-folders.js';
+
 import fixBrowserOrder from './fixer/browser-order.js';
 import fixFeatureOrder from './fixer/feature-order.js';
 import fixPropertyOrder from './fixer/property-order.js';
@@ -26,16 +28,16 @@ import { LintOptions } from './utils.js';
 const dirname = fileURLToPath(new URL('.', import.meta.url));
 
 const FIXES = Object.freeze({
-  browser_order: fixBrowserOrder,
-  feature_order: fixFeatureOrder,
-  property_order: fixPropertyOrder,
-  statement_order: fixStatementOrder,
   descriptions: fixDescriptions,
   flags: fixFlags,
   links: fixLinks,
   mdn_urls: fixMDNURLs,
   status: fixStatus,
   mirror: fixMirror,
+  browser_order: fixBrowserOrder,
+  feature_order: fixFeatureOrder,
+  property_order: fixPropertyOrder,
+  statement_order: fixStatementOrder,
 });
 
 /**
@@ -67,7 +69,9 @@ const load = async (
 
     if (fsStats.isFile()) {
       if (path.extname(file) === '.json' && !file.endsWith('.schema.json')) {
-        fixes.forEach((fix) => fix(file));
+        for (const fix of fixes) {
+          await fix(file);
+        }
       }
     } else {
       const subFiles = (await fs.readdir(file)).map((subfile) =>
@@ -86,7 +90,7 @@ const load = async (
  * @returns Promise<void>
  */
 const main = async (files: string[], options: LintOptions) => {
-  load(options, ...files);
+  await load(options, ...files);
 };
 
 if (esMain(import.meta)) {
@@ -103,22 +107,9 @@ if (esMain(import.meta)) {
     })
     .choices('only', Object.keys(FIXES));
 
-  const {
-    files = [
-      'api',
-      'browsers',
-      'css',
-      'html',
-      'http',
-      'svg',
-      'javascript',
-      'mathml',
-      'webassembly',
-      'webdriver',
-      'webextensions',
-    ],
-    only,
-  } = argv as { files?: string[] } & LintOptions;
+  const { files = dataFolders, only } = argv as {
+    files?: string[];
+  } & LintOptions;
 
   await main(files, { only });
 }

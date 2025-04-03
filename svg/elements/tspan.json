@@ -3,8 +3,11 @@
     "elements": {
       "tspan": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/tspan",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/tspan",
           "spec_url": "https://svgwg.org/svg2-draft/text.html#TextElement",
+          "tags": [
+            "web-features:svg"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -43,6 +46,9 @@
         },
         "dx": {
           "__compat": {
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -78,6 +84,9 @@
         },
         "dy": {
           "__compat": {
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -113,8 +122,11 @@
         },
         "fill": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fill",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/fill",
             "spec_url": "https://svgwg.org/svg2-draft/painting.html#SpecifyingFillPaint",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -147,8 +159,11 @@
           },
           "context-fill": {
             "__compat": {
-              "description": "<code>context-fill</code> value",
+              "description": "`context-fill` value",
               "spec_url": "https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint",
+              "tags": [
+                "web-features:context-fill-stroke"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "124"
@@ -183,6 +198,9 @@
         },
         "lengthAdjust": {
           "__compat": {
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -216,6 +234,9 @@
         },
         "rotate": {
           "__compat": {
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -251,8 +272,11 @@
         },
         "systemLanguage": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/systemLanguage",
             "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -292,7 +316,10 @@
         },
         "textLength": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/textLength",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -328,6 +355,9 @@
         },
         "x": {
           "__compat": {
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -363,6 +393,9 @@
         },
         "y": {
           "__compat": {
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"

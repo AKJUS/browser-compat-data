@@ -3,16 +3,18 @@
     "selectors": {
       "user-valid": {
         "__compat": {
-          "description": "<code>:user-valid</code>",
+          "description": "`:user-valid`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:user-valid",
-          "spec_url": "https://drafts.csswg.org/selectors/#user-valid-pseudo",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-user-valid",
+            "https://drafts.csswg.org/selectors/#user-valid-pseudo"
+          ],
           "tags": [
             "web-features:user-pseudos"
           ],
           "support": {
             "chrome": {
-              "version_added": "119",
-              "impl_url": "https://crbug.com/1156069"
+              "version_added": "119"
             },
             "chrome_android": "mirror",
             "edge": "mirror",

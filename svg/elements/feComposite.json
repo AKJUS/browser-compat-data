@@ -3,8 +3,11 @@
     "elements": {
       "feComposite": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/feComposite",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feComposite",
           "spec_url": "https://drafts.fxtf.org/filter-effects/#feCompositeElement",
+          "tags": [
+            "web-features:svg-filters"
+          ],
           "support": {
             "chrome": {
               "version_added": "5"
@@ -45,6 +48,9 @@
         },
         "in": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -52,7 +58,7 @@
               "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤18",
-                "notes": "Before Edge 79, <code>BackgroundImage</code> and <code>BackgroundAlpha</code> were supported."
+                "notes": "Before Edge 79, `BackgroundImage` and `BackgroundAlpha` were supported."
               },
               "firefox": {
                 "version_added": "3"
@@ -83,6 +89,9 @@
         },
         "in2": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -90,7 +99,7 @@
               "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤18",
-                "notes": "Before Edge 79, <code>BackgroundImage</code> and <code>BackgroundAlpha</code> were supported."
+                "notes": "Before Edge 79, `BackgroundImage` and `BackgroundAlpha` were supported."
               },
               "firefox": {
                 "version_added": "3"
@@ -121,8 +130,11 @@
         },
         "k1": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k1",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k1",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k1",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -160,8 +172,11 @@
         },
         "k2": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k2",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k2",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k2",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -199,8 +214,11 @@
         },
         "k3": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k3",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k3",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k3",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -238,8 +256,11 @@
         },
         "k4": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k4",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k4",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k4",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -277,6 +298,9 @@
         },
         "operator": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -313,7 +337,10 @@
           },
           "lighter_value": {
             "__compat": {
-              "description": "<code>lighter</code> value",
+              "description": "`lighter` value",
+              "tags": [
+                "web-features:svg-filters"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "41"

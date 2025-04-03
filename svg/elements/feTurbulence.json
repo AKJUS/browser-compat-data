@@ -3,8 +3,11 @@
     "elements": {
       "feTurbulence": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/feTurbulence",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feTurbulence",
           "spec_url": "https://drafts.fxtf.org/filter-effects/#feTurbulenceElement",
+          "tags": [
+            "web-features:svg-filters"
+          ],
           "support": {
             "chrome": {
               "version_added": "5"
@@ -12,7 +15,7 @@
             "chrome_android": "mirror",
             "edge": {
               "version_added": "12",
-              "notes": "Partially supported, see <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/'>bug 12382004</a>."
+              "notes": "Partially supported, see [bug 12382004](https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/)."
             },
             "firefox": {
               "version_added": "3"
@@ -20,7 +23,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "≤11",
-              "notes": "Partially supported, see <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/'>bug 12382004</a>."
+              "notes": "Partially supported, see [bug 12382004](https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/)."
             },
             "oculus": "mirror",
             "opera": {
@@ -43,8 +46,11 @@
         },
         "baseFrequency": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/baseFrequency",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/baseFrequency",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-basefrequency",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -52,7 +58,7 @@
               "chrome_android": "mirror",
               "edge": {
                 "version_added": "12",
-                "notes": "Partially supported, see <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/'>bug 12382004</a>."
+                "notes": "Partially supported, see [bug 12382004](https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/)."
               },
               "firefox": {
                 "version_added": "3"
@@ -60,7 +66,7 @@
               "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤11",
-                "notes": "Partially supported, see <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/'>bug 12382004</a>."
+                "notes": "Partially supported, see [bug 12382004](https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/)."
               },
               "oculus": "mirror",
               "opera": {
@@ -84,8 +90,11 @@
         },
         "numOctaves": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/numOctaves",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/numOctaves",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-numoctaves",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -119,8 +128,11 @@
         },
         "seed": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/seed",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/seed",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-seed",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -128,7 +140,7 @@
               "chrome_android": "mirror",
               "edge": {
                 "version_added": "12",
-                "notes": "Partially supported, see <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/'>bug 12382004</a>."
+                "notes": "Partially supported, see [bug 12382004](https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/)."
               },
               "firefox": {
                 "version_added": "3"
@@ -136,7 +148,7 @@
               "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤11",
-                "notes": "Partially supported, see <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/'>bug 12382004</a>."
+                "notes": "Partially supported, see [bug 12382004](https://developer.microsoft.com/microsoft-edge/platform/issues/12382004/)."
               },
               "oculus": "mirror",
               "opera": {
@@ -160,8 +172,11 @@
         },
         "stitchTiles": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stitchTiles",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/stitchTiles",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-stitchtiles",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -195,8 +210,11 @@
         },
         "type": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/type",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/type",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-type",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"

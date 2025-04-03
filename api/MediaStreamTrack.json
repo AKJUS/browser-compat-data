@@ -43,6 +43,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/applyConstraints",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-applyconstraints",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "59"
@@ -77,16 +80,19 @@
         },
         "aspectRatio_constraint": {
           "__compat": {
-            "description": "<code>aspectRatio</code> constraint",
+            "description": "`aspectRatio` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/aspectRatio",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-aspectratio",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "≤15"
               },
               "firefox": {
                 "version_added": false
@@ -117,17 +123,18 @@
         },
         "autoGainControl_constraint": {
           "__compat": {
-            "description": "<code>autoGainControl</code> constraint",
+            "description": "`autoGainControl` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-autogaincontrol",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "67"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤79"
-              },
+              "edge": "mirror",
               "firefox": [
                 {
                   "version_added": "55"
@@ -161,17 +168,18 @@
         },
         "channelCount_constraint": {
           "__compat": {
-            "description": "<code>channelCount</code> constraint",
+            "description": "`channelCount` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/channelCount",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-channelcount",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
@@ -199,24 +207,27 @@
         },
         "deviceId_constraint": {
           "__compat": {
-            "description": "<code>deviceId</code> constraint",
+            "description": "`deviceId` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-deviceid",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "43",
-                "notes": "Before Firefox 69, Firefox only supported <code>deviceId</code> in constraints passed into <code>getUserMedia()</code>."
+                "notes": "Before Firefox 69, Firefox only supported `deviceId` in constraints passed into `getUserMedia()`."
               },
               "firefox_android": {
                 "version_added": "43",
-                "notes": "Firefox for Android only supports <code>deviceId</code> when used in constraints passed into <code>getUserMedia()</code>."
+                "notes": "Firefox for Android only supports `deviceId` when used in constraints passed into `getUserMedia()`."
               },
               "ie": {
                 "version_added": false
@@ -241,9 +252,12 @@
         },
         "displaySurface_constraint": {
           "__compat": {
-            "description": "<code>displaySurface</code> constraint",
+            "description": "`displaySurface` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/displaySurface",
             "spec_url": "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-displaysurface",
+            "tags": [
+              "web-features:screen-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "107"
@@ -277,17 +291,18 @@
         },
         "echoCancellation_constraint": {
           "__compat": {
-            "description": "<code>echoCancellation</code> constraint",
+            "description": "`echoCancellation` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-echocancellation",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "50"
               },
@@ -315,16 +330,19 @@
         },
         "facingMode_constraint": {
           "__compat": {
-            "description": "<code>facingMode</code> constraint",
+            "description": "`facingMode` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-facingmode",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "50"
@@ -353,16 +371,19 @@
         },
         "frameRate_constraint": {
           "__compat": {
-            "description": "<code>frameRate</code> constraint",
+            "description": "`frameRate` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-framerate",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "50"
@@ -391,16 +412,19 @@
         },
         "groupId_constraint": {
           "__compat": {
-            "description": "<code>groupId</code> constraint",
+            "description": "`groupId` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-groupid",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "70"
@@ -429,16 +453,19 @@
         },
         "height_constraint": {
           "__compat": {
-            "description": "<code>height</code> constraint",
+            "description": "`height` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-height",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "50"
@@ -467,17 +494,18 @@
         },
         "latency_constraint": {
           "__compat": {
-            "description": "<code>latency</code> constraint",
+            "description": "`latency` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-latency",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "50"
               },
@@ -505,9 +533,12 @@
         },
         "logicalSurface_constraint": {
           "__compat": {
-            "description": "<code>logicalSurface</code> constraint",
+            "description": "`logicalSurface` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/logicalSurface",
             "spec_url": "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-logicalsurface",
+            "tags": [
+              "web-features:screen-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -541,17 +572,18 @@
         },
         "noiseSuppression_constraint": {
           "__compat": {
-            "description": "<code>noiseSuppression</code> constraint",
+            "description": "`noiseSuppression` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-noisesuppression",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "67"
               },
               "chrome_android": "mirror",
-              "edge": {
-                "version_added": "≤79"
-              },
+              "edge": "mirror",
               "firefox": [
                 {
                   "version_added": "55"
@@ -585,8 +617,11 @@
         },
         "resizeMode_constraint": {
           "__compat": {
-            "description": "<code>resizeMode</code> constraint",
+            "description": "`resizeMode` constraint",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-resizemode",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "72"
@@ -620,16 +655,19 @@
         },
         "sampleRate_constraint": {
           "__compat": {
-            "description": "<code>sampleRate</code> constraint",
+            "description": "`sampleRate` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleRate",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-samplerate",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": false
@@ -658,16 +696,19 @@
         },
         "sampleSize_constraint": {
           "__compat": {
-            "description": "<code>sampleSize</code> constraint",
+            "description": "`sampleSize` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleSize",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-samplesize",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": false
@@ -696,9 +737,12 @@
         },
         "suppressLocalAudioPlayback_constraint": {
           "__compat": {
-            "description": "<code>suppressLocalAudioPlayback</code> constraint",
+            "description": "`suppressLocalAudioPlayback` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/suppressLocalAudioPlayback",
             "spec_url": "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-suppresslocalaudioplayback",
+            "tags": [
+              "web-features:screen-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "109"
@@ -732,7 +776,7 @@
         },
         "volume_constraint": {
           "__compat": {
-            "description": "<code>volume</code> constraint",
+            "description": "`volume` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/volume",
             "support": {
               "chrome": {
@@ -740,7 +784,7 @@
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": false
@@ -769,16 +813,19 @@
         },
         "width_constraint": {
           "__compat": {
-            "description": "<code>width</code> constraint",
+            "description": "`width` constraint",
             "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width",
             "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-width",
+            "tags": [
+              "web-features:media-capture"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
               "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "50"
@@ -808,7 +855,7 @@
       },
       "capturehandlechange_event": {
         "__compat": {
-          "description": "<code>capturehandlechange</code> event",
+          "description": "`capturehandlechange` event",
           "spec_url": [
             "https://w3c.github.io/mediacapture-handle/identity/#capturehandlechange",
             "https://w3c.github.io/mediacapture-handle/identity/#oncapturehandlechange"
@@ -850,6 +897,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/clone",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-clone",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "35"
@@ -960,9 +1010,12 @@
       },
       "ended_event": {
         "__compat": {
-          "description": "<code>ended</code> event",
+          "description": "`ended` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/ended_event",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-onended",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -1000,6 +1053,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getCapabilities",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getcapabilities",
+          "tags": [
+            "web-features:media-capabilities"
+          ],
           "support": {
             "chrome": {
               "version_added": "59"
@@ -1073,6 +1129,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getConstraints",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getconstraints",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "53"
@@ -1114,6 +1173,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getSettings",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getsettings",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "59"
@@ -1269,9 +1331,12 @@
       },
       "mute_event": {
         "__compat": {
-          "description": "<code>mute</code> event",
+          "description": "`mute` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/mute_event",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-onmute",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -1309,6 +1374,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/muted",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-muted",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "38"
@@ -1320,7 +1388,7 @@
             "firefox": {
               "version_added": "59",
               "partial_implementation": true,
-              "notes": "Does not currently track the microphone's muted state from the operating system, see <a href='https://bugzil.la/1739163'>bug 1739163</a>."
+              "notes": "Does not currently track the microphone's muted state from the operating system, see [bug 1739163](https://bugzil.la/1739163)."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1348,6 +1416,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/readyState",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-readystate",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -1423,9 +1494,12 @@
       },
       "unmute_event": {
         "__compat": {
-          "description": "<code>unmute</code> event",
+          "description": "`unmute` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/unmute_event",
           "spec_url": "https://w3c.github.io/mediacapture-main/#event-mediastreamtrack-unmute",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"

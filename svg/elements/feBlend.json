@@ -3,8 +3,11 @@
     "elements": {
       "feBlend": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/feBlend",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feBlend",
           "spec_url": "https://drafts.fxtf.org/filter-effects/#feBlendElement",
+          "tags": [
+            "web-features:svg-filters"
+          ],
           "support": {
             "chrome": {
               "version_added": "5"
@@ -43,6 +46,9 @@
         },
         "in": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -82,6 +88,9 @@
         },
         "in2": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -121,8 +130,11 @@
         },
         "mode": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/mode",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/mode",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feblend-mode",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"

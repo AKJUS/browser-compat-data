@@ -3,7 +3,7 @@
     "headers": {
       "Sec-Fetch-Dest": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Dest",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest",
           "spec_url": "https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-dest-header",
           "tags": [
             "web-features:fetch-metadata"
@@ -40,10 +40,13 @@
         },
         "fencedframe": {
           "__compat": {
-            "description": "<code>fencedframe</code> value",
+            "description": "`fencedframe` value",
+            "tags": [
+              "web-features:fencedframe"
+            ],
             "support": {
               "chrome": {
-                "version_added": "117"
+                "version_added": "115"
               },
               "chrome_android": "mirror",
               "edge": "mirror",

@@ -16,7 +16,7 @@
               {
                 "prefix": "-webkit-",
                 "version_added": "1",
-                "notes": "From version 8, Chrome added support for gradient values. Initially, Chrome supported only <code>-webkit-</code> prefixed values for gradients (such as <code>-webkit-linear-gradient()</code>). Later, support for unprefixed values was added."
+                "notes": "From version 8, Chrome added support for gradient values. Initially, Chrome supported only `-webkit-` prefixed values for gradients (such as `-webkit-linear-gradient()`). Later, support for unprefixed values was added."
               }
             ],
             "chrome_android": "mirror",
@@ -45,10 +45,15 @@
               "prefix": "-webkit-",
               "version_added": "15"
             },
-            "opera_android": {
-              "prefix": "-webkit-",
-              "version_added": "14"
-            },
+            "opera_android": [
+              {
+                "version_added": "80"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "14"
+              }
+            ],
             "safari": [
               {
                 "version_added": "15.4"
@@ -56,19 +61,21 @@
               {
                 "prefix": "-webkit-",
                 "version_added": "4",
-                "notes": "Initially, Safari supported only <code>-webkit-</code> prefixed values for gradients (such as <code>-webkit-linear-gradient()</code>). Later, support for unprefixed values was added."
+                "notes": "Initially, Safari supported only `-webkit-` prefixed values for gradients (such as `-webkit-linear-gradient()`). Later, support for unprefixed values was added."
               }
             ],
             "safari_ios": "mirror",
-            "samsunginternet_android": {
-              "prefix": "-webkit-",
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "prefix": "-webkit-",
-              "version_added": "2",
-              "notes": "Initially, Android supported only <code>-webkit-</code> prefixed values for gradients (such as <code>-webkit-linear-gradient()</code>). Later, support for unprefixed values was added."
-            },
+            "samsunginternet_android": "mirror",
+            "webview_android": [
+              {
+                "version_added": "120"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "2",
+                "notes": "Initially, Android supported only `-webkit-` prefixed values for gradients (such as `-webkit-linear-gradient()`). Later, support for unprefixed values was added."
+              }
+            ],
             "webview_ios": "mirror"
           },
           "status": {

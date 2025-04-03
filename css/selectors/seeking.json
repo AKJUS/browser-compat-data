@@ -3,7 +3,8 @@
     "selectors": {
       "seeking": {
         "__compat": {
-          "description": "<code>:seeking</code>",
+          "description": "`:seeking`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:seeking",
           "spec_url": [
             "https://drafts.csswg.org/selectors/#selectordef-seeking",
             "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-seeking"

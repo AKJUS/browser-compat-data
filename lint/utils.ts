@@ -12,15 +12,6 @@ export interface LintOptions {
   only?: string[];
 }
 
-const now = new Date();
-
-/* The date, exactly two years ago */
-export const twoYearsAgo = new Date(
-  now.getFullYear() - 2,
-  now.getMonth(),
-  now.getDate(),
-);
-
 const INVISIBLES_MAP: Readonly<Record<string, string>> = Object.freeze(
   Object.assign(Object.create(null), {
     '\0': '\\0', // ␀ (0x00)
@@ -141,7 +132,7 @@ export interface Linter {
   name: string;
   description: string;
   scope: LinterScope;
-  check: (logger: Logger, options: object) => void;
+  check: (logger: Logger, options: object) => void | Promise<void>;
   exceptions?: string[];
 }
 
@@ -253,13 +244,13 @@ export class Linters {
    * @param scope The scope to run
    * @param data The data to lint
    */
-  runScope(scope: LinterScope, data: LinterData): void {
+  async runScope(scope: LinterScope, data: LinterData): Promise<void> {
     const linters = this.linters.filter((linter) => linter.scope === scope);
     for (const linter of linters) {
       const logger = new Logger(linter.name, data.path.full);
       try {
         const shouldFail = linter.exceptions?.includes(data.path.full);
-        linter.check(logger, data);
+        await linter.check(logger, data);
         if (shouldFail) {
           this.missingExpectedFailures[linter.name][data.path.full] =
             logger.messages.length === 0;

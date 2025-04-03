@@ -41,10 +41,15 @@
             ],
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": {
-              "prefix": "-webkit-",
-              "version_added": "2"
-            },
+            "webview_android": [
+              {
+                "version_added": "120"
+              },
+              {
+                "prefix": "-webkit-",
+                "version_added": "2"
+              }
+            ],
             "webview_ios": "mirror"
           },
           "status": {
@@ -55,6 +60,9 @@
         },
         "border": {
           "__compat": {
+            "tags": [
+              "web-features:masks"
+            ],
             "support": {
               "chrome": {
                 "prefix": "-webkit-",
@@ -98,6 +106,9 @@
         },
         "content": {
           "__compat": {
+            "tags": [
+              "web-features:masks"
+            ],
             "support": {
               "chrome": {
                 "prefix": "-webkit-",
@@ -141,6 +152,9 @@
         },
         "fill-box": {
           "__compat": {
+            "tags": [
+              "web-features:masks"
+            ],
             "support": {
               "chrome": {
                 "version_added": "120"
@@ -175,6 +189,9 @@
         },
         "padding": {
           "__compat": {
+            "tags": [
+              "web-features:masks"
+            ],
             "support": {
               "chrome": {
                 "prefix": "-webkit-",
@@ -218,6 +235,9 @@
         },
         "stroke-box": {
           "__compat": {
+            "tags": [
+              "web-features:masks"
+            ],
             "support": {
               "chrome": {
                 "version_added": "120"
@@ -252,6 +272,9 @@
         },
         "view-box": {
           "__compat": {
+            "tags": [
+              "web-features:masks"
+            ],
             "support": {
               "chrome": {
                 "version_added": "120"

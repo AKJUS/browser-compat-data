@@ -13,6 +13,7 @@ import chalk from 'chalk-template';
 
 import { BrowserName } from '../types/types.js';
 import { DataType } from '../types/index.js';
+import dataFolders from '../scripts/lib/data-folders.js';
 import extend from '../scripts/lib/extend.js';
 import pluralize from '../scripts/lib/pluralize.js';
 import { walk } from '../utils/index.js';
@@ -78,7 +79,7 @@ const loadAndCheckFiles = async (...files: string[]): Promise<DataType> => {
         const rawFileData = (await fs.readFile(file, 'utf-8')).trim();
         const fileData = JSON.parse(rawFileData);
 
-        linters.runScope('file', {
+        await linters.runScope('file', {
           data: fileData,
           rawdata: rawFileData,
           path: filePath,
@@ -111,21 +112,7 @@ const loadAndCheckFiles = async (...files: string[]): Promise<DataType> => {
  * @param files The file(s) and/or folder(s) to test. Leave undefined for everything.
  * @returns Whether there were any errors
  */
-const main = async (
-  files = [
-    'api',
-    'browsers',
-    'css',
-    'html',
-    'http',
-    'svg',
-    'javascript',
-    'mathml',
-    'webassembly',
-    'webdriver',
-    'webextensions',
-  ],
-) => {
+const main = async (files = dataFolders) => {
   let hasErrors = false;
 
   console.log(chalk`{cyan Loading and checking files...}`);
@@ -133,7 +120,7 @@ const main = async (
 
   console.log(chalk`{cyan Testing browser data...}`);
   for (const browser in data?.browsers) {
-    linters.runScope('browser', {
+    await linters.runScope('browser', {
       data: data.browsers[browser],
       rawdata: '',
       path: {
@@ -147,7 +134,7 @@ const main = async (
   console.log(chalk`{cyan Testing feature data...}`);
   const walker = walk(undefined, data);
   for (const feature of walker) {
-    linters.runScope('feature', {
+    await linters.runScope('feature', {
       data: feature.compat,
       rawdata: '',
       path: {
@@ -158,7 +145,7 @@ const main = async (
   }
 
   console.log(chalk`{cyan Testing all features together...}`);
-  linters.runScope('tree', {
+  await linters.runScope('tree', {
     data,
     rawdata: '',
     path: {

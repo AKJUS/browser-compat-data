@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope",
         "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#the-workerglobalscope-common-interface",
+        "tags": [
+          "web-features:dedicated-workers"
+        ],
         "support": {
           "chrome": {
             "version_added": "4"
@@ -86,9 +89,12 @@
       },
       "error_event": {
         "__compat": {
-          "description": "<code>error</code> event",
+          "description": "`error` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/error_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onerror",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -133,6 +139,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/fonts",
           "spec_url": "https://drafts.csswg.org/css-font-loading/#dom-fontfacesource-fonts",
+          "tags": [
+            "web-features:font-loading"
+          ],
           "support": {
             "chrome": {
               "version_added": "69"
@@ -168,6 +177,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/importScripts",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerglobalscope-importscripts-dev",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -211,7 +223,10 @@
         },
         "mime_checks": {
           "__compat": {
-            "description": "Strict MIME type checks for <code>importScripts()</code>",
+            "description": "Strict MIME type checks for `importScripts()`",
+            "tags": [
+              "web-features:dedicated-workers"
+            ],
             "support": {
               "chrome": {
                 "version_added": "71"
@@ -249,11 +264,14 @@
       },
       "languagechange_event": {
         "__compat": {
-          "description": "<code>languagechange</code> event",
+          "description": "`languagechange` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/languagechange_event",
           "spec_url": [
             "https://html.spec.whatwg.org/multipage/indices.html#event-languagechange",
             "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onlanguagechange"
+          ],
+          "tags": [
+            "web-features:language"
           ],
           "support": {
             "chrome": {
@@ -297,6 +315,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/location",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerglobalscope-location-dev",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -341,6 +362,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/navigator",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-navigator-dev",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -383,13 +407,16 @@
       },
       "offline_event": {
         "__compat": {
-          "description": "<code>offline</code> event",
+          "description": "`offline` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/offline_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onoffline",
+          "tags": [
+            "web-features:online"
+          ],
           "support": {
             "chrome": {
               "version_added": false,
-              "impl_url": "https://crbug.com/114475"
+              "impl_url": "https://crbug.com/40155587"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -423,13 +450,16 @@
       },
       "online_event": {
         "__compat": {
-          "description": "<code>online</code> event",
+          "description": "`online` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/online_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-ononline",
+          "tags": [
+            "web-features:online"
+          ],
           "support": {
             "chrome": {
               "version_added": false,
-              "impl_url": "https://crbug.com/114475"
+              "impl_url": "https://crbug.com/40155587"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -463,9 +493,12 @@
       },
       "rejectionhandled_event": {
         "__compat": {
-          "description": "<code>rejectionhandled</code> event",
+          "description": "`rejectionhandled` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onrejectionhandled",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "49"
@@ -499,9 +532,12 @@
       },
       "securitypolicyviolation_event": {
         "__compat": {
-          "description": "<code>securitypolicyviolation</code> event",
+          "description": "`securitypolicyviolation` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/securitypolicyviolation_event",
           "spec_url": "https://w3c.github.io/webappsec-csp/#eventdef-globaleventhandlers-securitypolicyviolation",
+          "tags": [
+            "web-features:csp"
+          ],
           "support": {
             "chrome": {
               "version_added": "41"
@@ -539,6 +575,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/self",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerglobalscope-self-dev",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -583,9 +622,12 @@
       },
       "unhandledrejection_event": {
         "__compat": {
-          "description": "<code>unhandledrejection</code> event",
+          "description": "`unhandledrejection` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event",
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onunhandledrejection",
+          "tags": [
+            "web-features:dedicated-workers"
+          ],
           "support": {
             "chrome": {
               "version_added": "49"

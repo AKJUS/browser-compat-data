@@ -24,11 +24,15 @@
           "opera": "mirror",
           "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/182565"
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror",
+          "webview_android": {
+            "version_added": false,
+            "impl_url": "https://crbug.com/40449796"
+          },
           "webview_ios": "mirror"
         },
         "status": {
@@ -39,7 +43,7 @@
       },
       "SyncEvent": {
         "__compat": {
-          "description": "<code>SyncEvent()</code> constructor",
+          "description": "`SyncEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SyncEvent/SyncEvent",
           "spec_url": "https://wicg.github.io/background-sync/spec/#dom-syncevent-syncevent",
           "tags": [
@@ -66,7 +70,10 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror",
+            "webview_android": {
+              "version_added": false,
+              "impl_url": "https://crbug.com/40449796"
+            },
             "webview_ios": "mirror"
           },
           "status": {
@@ -104,7 +111,10 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror",
+            "webview_android": {
+              "version_added": false,
+              "impl_url": "https://crbug.com/40449796"
+            },
             "webview_ios": "mirror"
           },
           "status": {
@@ -142,7 +152,10 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror",
+            "webview_android": {
+              "version_added": false,
+              "impl_url": "https://crbug.com/40449796"
+            },
             "webview_ios": "mirror"
           },
           "status": {

@@ -3,8 +3,11 @@
     "elements": {
       "feSpotLight": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/feSpotLight",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feSpotLight",
           "spec_url": "https://drafts.fxtf.org/filter-effects/#feSpotLightElement",
+          "tags": [
+            "web-features:svg-filters"
+          ],
           "support": {
             "chrome": {
               "version_added": "5"
@@ -43,8 +46,11 @@
         },
         "limitingConeAngle": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/limitingConeAngle",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/limitingConeAngle",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-limitingconeangle",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -84,8 +90,11 @@
         },
         "pointsAtX": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointsAtX",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/pointsAtX",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatx",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -125,8 +134,11 @@
         },
         "pointsAtY": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointsAtY",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/pointsAtY",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsaty",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -166,8 +178,11 @@
         },
         "pointsAtZ": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointsAtZ",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/pointsAtZ",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatz",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -207,6 +222,9 @@
         },
         "specularExponent": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -246,6 +264,9 @@
         },
         "x": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -285,6 +306,9 @@
         },
         "y": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -324,6 +348,9 @@
         },
         "z": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"

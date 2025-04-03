@@ -356,7 +356,10 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
@@ -593,7 +596,8 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "1.5"
+              "version_added": "1.5",
+              "notes": "The repetition values `repeat-x` and `repeat-y` are not supported with `fill()`, only with `fillRect()`, see [bug 468358](https://bugzil.la/468358)."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -750,7 +754,10 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "37"
@@ -831,6 +838,9 @@
         "ImageBitmap_source_image": {
           "__compat": {
             "description": "ImageBitmap as source image",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "30"
@@ -867,6 +877,9 @@
         "SVGImageElement_source_image": {
           "__compat": {
             "description": "SVGImageElement as source image",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
@@ -986,7 +999,10 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
@@ -1223,9 +1239,17 @@
             "opera_android": {
               "version_added": "≤12.1"
             },
-            "safari": {
-              "version_added": "4"
-            },
+            "safari": [
+              {
+                "version_added": "18.4"
+              },
+              {
+                "version_added": "4",
+                "version_removed": "18.4",
+                "partial_implementation": true,
+                "notes": "The `font-weight` can be set, but is not reflected back (see [bug 284115](https://webkit.org/b/284115))."
+              }
+            ],
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": {
@@ -1415,7 +1439,7 @@
             },
             "firefox": {
               "version_added": "2",
-              "notes": "Since Firefox 5, <code>getImageData</code> now correctly accepts rectangles that extend beyond the bounds of the canvas; pixels outside the canvas are returned as transparent black and now also returns at least one pixel's worth of image data if a rectangle smaller than one pixel is specified."
+              "notes": "Since Firefox 5, `getImageData` now correctly accepts rectangles that extend beyond the bounds of the canvas; pixels outside the canvas are returned as transparent black and now also returns at least one pixel's worth of image data if a rectangle smaller than one pixel is specified."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1773,7 +1797,10 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
@@ -1847,7 +1874,10 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
@@ -1880,6 +1910,50 @@
           }
         }
       },
+      "lang": {
+        "__compat": {
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-lang",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "135",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#enable-experimental-web-platform-features",
+                  "value_to_set": "enabled"
+                }
+              ]
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "letterSpacing": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/letterSpacing",
@@ -1904,7 +1978,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -2788,6 +2862,9 @@
         "matrix_parameter": {
           "__compat": {
             "description": "Accept matrix object as parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -3041,7 +3118,10 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
@@ -3452,7 +3532,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",

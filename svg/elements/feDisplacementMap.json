@@ -3,8 +3,11 @@
     "elements": {
       "feDisplacementMap": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/feDisplacementMap",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feDisplacementMap",
           "spec_url": "https://drafts.fxtf.org/filter-effects/#feDisplacementMapElement",
+          "tags": [
+            "web-features:svg-filters"
+          ],
           "support": {
             "chrome": {
               "version_added": "5"
@@ -39,6 +42,9 @@
         },
         "in": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -74,6 +80,9 @@
         },
         "in2": {
           "__compat": {
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -109,8 +118,11 @@
         },
         "scale": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/scale",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/scale",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-scale",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -146,8 +158,11 @@
         },
         "xChannelSelector": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xChannelSelector",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/xChannelSelector",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-xchannelselector",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
@@ -181,8 +196,11 @@
         },
         "yChannelSelector": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/yChannelSelector",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/yChannelSelector",
             "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-ychannelselector",
+            "tags": [
+              "web-features:svg-filters"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"

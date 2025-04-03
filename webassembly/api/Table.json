@@ -3,8 +3,11 @@
     "api": {
       "Table": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Table",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Table",
           "spec_url": "https://webassembly.github.io/spec/js-api/#tables",
+          "tags": [
+            "web-features:wasm"
+          ],
           "support": {
             "chrome": {
               "version_added": "57"
@@ -45,9 +48,12 @@
         },
         "Table": {
           "__compat": {
-            "description": "<code>Table()</code> constructor",
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Table/Table",
+            "description": "`Table()` constructor",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Table/Table",
             "spec_url": "https://webassembly.github.io/spec/js-api/#dom-table-table",
+            "tags": [
+              "web-features:wasm"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -89,8 +95,11 @@
         },
         "get": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Table/get",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Table/get",
             "spec_url": "https://webassembly.github.io/spec/js-api/#dom-table-get",
+            "tags": [
+              "web-features:wasm"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -132,8 +141,11 @@
         },
         "grow": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Table/grow",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Table/grow",
             "spec_url": "https://webassembly.github.io/spec/js-api/#dom-table-grow",
+            "tags": [
+              "web-features:wasm"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -175,8 +187,11 @@
         },
         "length": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Table/length",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Table/length",
             "spec_url": "https://webassembly.github.io/spec/js-api/#dom-table-length",
+            "tags": [
+              "web-features:wasm"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -218,8 +233,11 @@
         },
         "set": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Table/set",
+            "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Table/set",
             "spec_url": "https://webassembly.github.io/spec/js-api/#dom-table-set",
+            "tags": [
+              "web-features:wasm"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"

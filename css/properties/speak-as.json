@@ -3,7 +3,11 @@
     "properties": {
       "speak-as": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/speak-as",
           "spec_url": "https://drafts.csswg.org/css-speech-1/#speaking-props-speak-as",
+          "tags": [
+            "web-features:speak-as"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -38,6 +42,9 @@
         "digits": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-speech-1/#valdef-speak-as-digits",
+            "tags": [
+              "web-features:speak-as"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -72,6 +79,9 @@
         "literal-punctuation": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-speech-1/#valdef-speak-as-literal-punctuation",
+            "tags": [
+              "web-features:speak-as"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -106,6 +116,9 @@
         "no-punctuation": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-speech-1/#valdef-speak-as-no-punctuation",
+            "tags": [
+              "web-features:speak-as"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -140,6 +153,9 @@
         "normal": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-speech-1/#valdef-speak-as-normal",
+            "tags": [
+              "web-features:speak-as"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -174,6 +190,9 @@
         "spell-out": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-speech-1/#valdef-speak-as-spell-out",
+            "tags": [
+              "web-features:speak-as"
+            ],
             "support": {
               "chrome": {
                 "version_added": false

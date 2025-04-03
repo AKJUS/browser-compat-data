@@ -5,6 +5,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars",
           "spec_url": "https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-chars",
+          "tags": [
+            "web-features:hyphenate-limit-chars"
+          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -12,7 +15,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "137"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -38,6 +41,9 @@
         "auto": {
           "__compat": {
             "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-hyphenate-limit-chars-auto",
+            "tags": [
+              "web-features:hyphenate-limit-chars"
+            ],
             "support": {
               "chrome": {
                 "version_added": "109"
@@ -45,7 +51,7 @@
               "chrome_android": "mirror",
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "137"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -63,7 +69,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }

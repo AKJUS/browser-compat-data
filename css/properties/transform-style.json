@@ -38,8 +38,7 @@
               },
               {
                 "prefix": "-moz-",
-                "version_added": "10",
-                "version_removed": "preview"
+                "version_added": "10"
               }
             ],
             "firefox_android": "mirror",
@@ -51,7 +50,8 @@
             "opera_android": "mirror",
             "safari": [
               {
-                "version_added": "9"
+                "version_added": "9",
+                "notes": "Before Safari 17, `::before` and `::after` pseudo elements were not included in the 3D rendering context (see [bug 256430](https://webkit.org/b/256430))."
               },
               {
                 "prefix": "-webkit-",

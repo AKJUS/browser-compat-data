@@ -3,10 +3,13 @@
     "headers": {
       "Cache-Control": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cache-Control",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Cache-Control",
           "spec_url": [
             "https://httpwg.org/specs/rfc9111.html#field.cache-control",
             "https://httpwg.org/specs/rfc8246.html#the-immutable-cache-control-extension"
+          ],
+          "tags": [
+            "web-features:http11"
           ],
           "support": {
             "chrome": {
@@ -45,7 +48,7 @@
             "support": {
               "chrome": {
                 "version_added": false,
-                "impl_url": "https://crbug.com/611416"
+                "impl_url": "https://crbug.com/41253661"
               },
               "chrome_android": "mirror",
               "edge": {
@@ -75,41 +78,6 @@
             "status": {
               "experimental": false,
               "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "stale-if-error": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false,
-                "impl_url": "https://crbug.com/348877"
-              },
-              "chrome_android": "mirror",
-              "edge": "mirror",
-              "firefox": {
-                "version_added": false,
-                "impl_url": "https://bugzil.la/1547587"
-              },
-              "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
-              "oculus": "mirror",
-              "opera": "mirror",
-              "opera_android": "mirror",
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": "mirror",
-              "samsunginternet_android": "mirror",
-              "webview_android": "mirror",
-              "webview_ios": "mirror"
-            },
-            "status": {
-              "experimental": true,
-              "standard_track": false,
               "deprecated": false
             }
           }

@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream",
         "spec_url": "https://w3c.github.io/mediacapture-main/#mediastream",
+        "tags": [
+          "web-features:media-capture"
+        ],
         "support": {
           "chrome": [
             {
@@ -50,9 +53,12 @@
       },
       "MediaStream": {
         "__compat": {
-          "description": "<code>MediaStream()</code> constructor",
+          "description": "`MediaStream()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/MediaStream",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-constructor",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": [
               {
@@ -104,6 +110,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/active",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-active",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "42"
@@ -139,7 +148,7 @@
       },
       "active_event": {
         "__compat": {
-          "description": "<code>active</code> event",
+          "description": "`active` event",
           "support": {
             "chrome": {
               "version_added": "42"
@@ -177,6 +186,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/addTrack",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-addtrack",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -214,9 +226,12 @@
       },
       "addtrack_event": {
         "__compat": {
-          "description": "<code>addtrack</code> event",
+          "description": "`addtrack` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/addtrack_event",
           "spec_url": "https://w3c.github.io/mediacapture-main/#event-mediastream-addtrack",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -254,6 +269,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/clone",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-clone",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "35"
@@ -304,7 +322,7 @@
             },
             "firefox": {
               "version_added": "22",
-              "notes": "Before Firefox 64, this method returned an array of <code>AudioStreamTrack</code> objects. However, <code>MediaStreamTrack</code> has now subsumed that interface's functionality."
+              "notes": "Before Firefox 64, this method returned an array of `AudioStreamTrack` objects. However, `MediaStreamTrack` has now subsumed that interface's functionality."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -334,6 +352,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/getTrackById",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-gettrackbyid",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -426,7 +447,7 @@
             },
             "firefox": {
               "version_added": "22",
-              "notes": "Before Firefox 64, this method returned an array of <code>VideoStreamTrack</code> objects. However, <code>MediaStreamTrack</code> has now subsumed that interface's functionality."
+              "notes": "Before Firefox 64, this method returned an array of `VideoStreamTrack` objects. However, `MediaStreamTrack` has now subsumed that interface's functionality."
             },
             "firefox_android": "mirror",
             "ie": {
@@ -456,6 +477,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/id",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-id",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -491,7 +515,7 @@
       },
       "inactive_event": {
         "__compat": {
-          "description": "<code>inactive</code> event",
+          "description": "`inactive` event",
           "support": {
             "chrome": {
               "version_added": "42"
@@ -529,6 +553,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/removeTrack",
           "spec_url": "https://w3c.github.io/mediacapture-main/#dom-mediastream-removetrack",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -566,9 +593,12 @@
       },
       "removetrack_event": {
         "__compat": {
-          "description": "<code>removetrack</code> event",
+          "description": "`removetrack` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStream/removetrack_event",
           "spec_url": "https://w3c.github.io/mediacapture-main/#event-mediastream-removetrack",
+          "tags": [
+            "web-features:media-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
